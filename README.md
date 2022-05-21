@@ -21,5 +21,8 @@ An NPL Tool with Open.AI to help students who have no time to read their assignm
 --------------------------------------------------
 
 
-## TODO
-- 
+## Running
+Clone this repo `https://github.com/willyd332/Prep-AI.git`
+Then download `pip install -r requirements.txt`
+Set `.env` variables
+Run server with `flask run`

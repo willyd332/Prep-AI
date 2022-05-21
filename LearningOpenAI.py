@@ -1,5 +1,6 @@
+import os
 import openai
-openai.api_key = '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'
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # ------------------------------------------------------------
 # Learning the completions endpoint
 # ------------------------------------------------------------

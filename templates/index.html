@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <title>Prep.AI [DEV]</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='davinci.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='davinci.png') }}" class="icon" />
+  <h3>Davinci.AI, Sketch.AI, Prep.AI, Genius.AI Or Some Other Name</h3>
+  <br/>
+  <div class="prompts">
+    <div class="prompt-form">
+      <h4>Submit Any Prompt</h4>
+      <form action="/" method="post">
+        <input type="text" name="prompt" placeholder="Enter your prompt..." required />
+        <input type="submit" value="Generate answer" />
+      </form>
+    </div>
+    <div class="prompt-form">
+      <h4>Give An Animal A Name</h4>
+      <form action="/animal" method="post">
+        <input type="text" name="animal" placeholder="What kind of animal would you like to name?" required />
+        <input type="submit" value="Generate names" />
+      </form>
+    </div>
+  </div>
+  {% if result %}
+  <div class="result">{{ result }}</div>
+  {% endif %}
+</body>
