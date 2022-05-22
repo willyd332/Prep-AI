@@ -10,14 +10,15 @@ from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams, LTTextBoxHorizontal
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from os.path import *
+import paragraph_extractor as paragraphs
 
 # FILENAMES & GET PDF
 # --
 
 filePath = "../test-data/Klein-Studying the History of Those Who Would Rather Forget- Oral History and the Experience of Slavery copy.pdf"
-# filePath = "../test-data/Havlick2007_Article_LogicsOfChangeForMilitary-to-w.pdf"
 
-output_folder = '../extracted-text/'
+text_output_folder = '../extracted-text/'
+json_output_folder = '../jsonl-data/'
 
 # GET THE DATA
 # --
@@ -62,5 +63,16 @@ def clean_filename(string):
   string = string.replace(' ', '_').replace('-', '_').replace('__', '_')
   return string
 
+def save_raw_text_to_file(text, filename, output_folder):
+  """
+  Write a string into a new text file.
+  """
+  text_file = open(output_folder + filename + ".txt", "w")
+  text_file.write(text)
+  text_file.close()
 
-print(extract_txt_from_pdf(pdf_file))
+# RUN & TEST
+# --
+cleaned_filename = clean_filename(pdf_title)
+raw_text = extract_txt_from_pdf(pdf_file)
+save_raw_text_to_file(raw_text, cleaned_filename, text_output_folder)
