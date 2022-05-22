@@ -143,5 +143,5 @@ def generate_jsonl_file(data, title, path_to_output):
 
 # RUN & TEST
 # --
-# cleaned_data = clean_text(raw_text_list)
-# generate_jsonl_file(cleaned_data, article_title, output_folder)
+cleaned_data = clean_text(raw_text_list)
+generate_jsonl_file(cleaned_data, article_title, output_folder)
