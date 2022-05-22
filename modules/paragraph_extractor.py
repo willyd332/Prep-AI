@@ -4,8 +4,8 @@ from sentence_splitter import split_into_sentences as make_sentences
 
 # FILEPATHS
 # --
-filePath = "../test-data/NewYorkTimes.txt"
-# filePath = "../test-data/m2w.txt"
+# filePath = "../test-data/NewYorkTimes.txt"
+filePath = "../test-data/m2w.txt"
 # filePath = "../test-data/Debs Speech 1918 copy.docx"
 # filePath = "../test-data/Klein-Studying the History of Those Who Would Rather Forget- Oral History and the Experience of Slavery copy.pdf"
 
