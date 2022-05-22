@@ -1,7 +1,8 @@
 import os
+from sentence_splitter import split_into_sentences as make_sentences
 
-filePath = "../test-data/NewYorkTime.txt"
-# filePath = "../test-data/m2w.txt"
+# filePath = "../test-data/NewYorkTime.txt"
+filePath = "../test-data/m2w.txt"
 # filePath = "../test-data/Debs Speech 1918 copy.docx"
 # filePath = "../test-data/Klein-Studying the History of Those Who Would Rather Forget- Oral History and the Experience of Slavery copy.pdf"
 
@@ -17,6 +18,20 @@ raw_text = raw_text_file.readlines()
 def strip_text(text_list):
   text = [line.strip() for line in text_list if line.strip() != ""]
   return text
+
+# Reduce lines if lines are larger than the paragraph size
+def reduce_lines(text_list, max_paragraph_size = 200):
+  reduced_text = []
+  # If line is too big split into sentences and remake line
+  for line in text_list:
+    if len(line.split()) <= max_paragraph_size:
+      reduced_text.append(line)
+    else:
+      sentences = make_sentences(line)
+      reduced_line = consolidate_lines(sentences)
+      reduced_text.extend(reduced_line)
+  return reduced_text
+
 
 # Consolidate small lines into uniform paragraphs ~200 words
 def consolidate_lines(text_list, max_paragraph_size = 200):
@@ -36,9 +51,12 @@ def consolidate_lines(text_list, max_paragraph_size = 200):
     consolidated_text.append(temp_string)
   return consolidated_text
 
-# PRINT
+# CLEAN THE TEXT
 # --
-cleanText = consolidate_lines(strip_text(raw_text))
+cleanText = strip_text(raw_text)
+cleanText = reduce_lines(cleanText)
+cleanText = consolidate_lines(cleanText)
+
 print(article_title)
 for line in cleanText: 
   print("--")
