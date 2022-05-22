@@ -76,3 +76,16 @@ def save_raw_text_to_file(text, filename, output_folder):
 cleaned_filename = clean_filename(pdf_title)
 raw_text = extract_txt_from_pdf(pdf_file)
 save_raw_text_to_file(raw_text, cleaned_filename, text_output_folder)
+
+# WHAT TO DO ABOUT THE FACT THAT THE EXTRACTED TEXT IS SOMETIMES DIRTY???
+'''
+It's quite simple really, I will just force the user to clean it up. It will take them 10 seconds.
+All they really need is a rough clean, ask them to delete the obvious metadata and that't the end.
+
+I will give them two options:
+
+  1. Paste the text you would like to analyze directly.
+  2. Upload a PDF and then manually clean the data.
+
+The code doesn't have to do everything!!
+'''
