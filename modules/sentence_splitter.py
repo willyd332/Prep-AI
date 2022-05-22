@@ -9,6 +9,11 @@ websites = "[.](com|net|org|io|gov)"
 digits = "([0-9])"
 
 def split_into_sentences(text):
+    '''
+    Takes in a string.
+    Splits it into a list of sentences, taking into account all the special cases.
+    Returns list of sentences (strings).
+    '''
     text = " " + text + "  "
     text = text.replace("\n"," ")
     text = re.sub(prefixes,"\\1<prd>",text)
