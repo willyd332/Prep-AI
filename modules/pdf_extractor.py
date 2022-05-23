@@ -1,7 +1,5 @@
 import os
-import re
-from html import unescape
-from urllib.parse import unquote
+from os.path import *
 from pdfminer.pdfparser import PDFParser
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfpage import PDFPage
@@ -9,83 +7,59 @@ from pdfminer.pdfpage import PDFTextExtractionNotAllowed
 from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LAParams, LTTextBoxHorizontal
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from os.path import *
-import paragraph_extractor as paragraphs
+from modules.paragraph_extractor import ParagraphExtraction
 
-# FILENAMES & GET PDF
-# --
+class PdfExtraction:
 
-filePath = "../test-data/Klein-Studying the History of Those Who Would Rather Forget- Oral History and the Experience of Slavery copy.pdf"
+  def __init__(self, urlToPDF):
+    '''
+    Init the extraction by creating an object for that PDF file
+    '''
+    print("PdfExtraction Initialized!")
+    # Create Title
+    self.article_title = ParagraphExtraction.clean_filename(os.path.basename(urlToPDF).split(".")[0])
+    # Generate and clean text
+    pdf_file = open(urlToPDF, 'rb')
+    self.raw_text = self.extract_txt_from_pdf(pdf_file)
 
-text_output_folder = '../extracted-text/'
-json_output_folder = '../jsonl-data/'
+  # EXTRACT FROM PDF
+  # -- 
+  def extract_txt_from_pdf(self, pdf):
+    '''
+    '''
+    parser = PDFParser(pdf)
+    document_content = PDFDocument(parser)
+    if not document_content.is_extractable:
+        raise PDFTextExtractionNotAllowed
+    else:
+        rsrcmgr = PDFResourceManager()
+        laparams = LAParams()
+        device = PDFPageAggregator(rsrcmgr, laparams=laparams)
+        interpreter = PDFPageInterpreter(rsrcmgr, device)
+        results = ''
+        for page in PDFPage.create_pages(document_content):
+            interpreter.process_page(page)
+            layout = device.get_result()
+            for x in layout:
+                if (isinstance(x, LTTextBoxHorizontal)):
+                    result = x.get_text() + '\n'
+                    if result.strip() != '':
+                        results = results + result
+    return results
 
-# GET THE DATA
-# --
-pdf_title = os.path.basename(filePath).split(".")[0]
-pdf_file = open(filePath, 'rb')
+  def save_raw_text_to_file(self, output_folder):
+    """
+    Write a extracted text into a new text file.
+    """
+    text_file = open(output_folder + self.article_title + ".txt", "w")
+    text_file.write(self.raw_text)
+    text_file.close()
 
-# EXTRACT FROM PDF
-# -- 
-def extract_txt_from_pdf(pdf):
-  '''
-  '''
-  parser = PDFParser(pdf)
-  document_content = PDFDocument(parser)
-  if not document_content.is_extractable:
-      raise PDFTextExtractionNotAllowed
-  else:
-      rsrcmgr = PDFResourceManager()
-      laparams = LAParams()
-      device = PDFPageAggregator(rsrcmgr, laparams=laparams)
-      interpreter = PDFPageInterpreter(rsrcmgr, device)
-      results = ''
-      for page in PDFPage.create_pages(document_content):
-          interpreter.process_page(page)
-          layout = device.get_result()
-          for x in layout:
-              if (isinstance(x, LTTextBoxHorizontal)):
-                  result = x.get_text() + '\n'
-                  if result.strip() != '':
-                      results = results + result
-  return results
-
-def clean_filename(string):
-  """
-  Sanitize a string to be used as a filename.
-  """
-  string = unescape(string)
-  string = unquote(string)
-  string = re.sub(r'<(?P<tag>.+?)>(?P<in>.+?)<(/(?P=tag))>', "\g<in>", string)
-  string = string.replace(':', '_').replace('/', '_').replace('\x00', '_')
-  string = re.sub('[\n\\\*><?\"|\t]', '', string)
-  string = string.strip()
-  string = string.replace(' ', '_').replace('-', '_').replace('__', '_')
-  return string
-
-def save_raw_text_to_file(text, filename, output_folder):
-  """
-  Write a string into a new text file.
-  """
-  text_file = open(output_folder + filename + ".txt", "w")
-  text_file.write(text)
-  text_file.close()
-
-# RUN & TEST
-# --
-cleaned_filename = clean_filename(pdf_title)
-raw_text = extract_txt_from_pdf(pdf_file)
-save_raw_text_to_file(raw_text, cleaned_filename, text_output_folder)
-
-# WHAT TO DO ABOUT THE FACT THAT THE EXTRACTED TEXT IS SOMETIMES DIRTY???
-'''
-It's quite simple really, I will just force the user to clean it up. It will take them 10 seconds.
-All they really need is a rough clean, ask them to delete the obvious metadata and that't the end.
-
-I will give them two options:
-
-  1. Paste the text you would like to analyze directly.
-  2. Upload a PDF and then manually clean the data.
-
-The code doesn't have to do everything!!
-'''
+  @staticmethod
+  def save_external_text_to_file(raw_text, title, output_folder):
+    """
+    Write any string into a new text file.
+    """
+    text_file = open(output_folder + title + ".txt", "w")
+    text_file.write(raw_text)
+    text_file.close()

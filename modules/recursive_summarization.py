@@ -1,9 +1,9 @@
 import os
 import openai
 from dotenv import load_dotenv
-from paragraph_extractor import reduce_lines, consolidate_lines, strip_text, merge_lines
+from modules.paragraph_extractor import ParagraphExtraction
 
-
+# Load env variables
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 

@@ -3,7 +3,7 @@ import re
 from html import unescape
 from urllib.parse import unquote
 import jsonlines
-from sentence_splitter import split_into_sentences as make_sentences
+from modules.sentence_splitter import split_into_sentences as make_sentences
 
 class ParagraphExtraction:
   '''
@@ -15,7 +15,7 @@ class ParagraphExtraction:
     '''
     Init the extraction by creating an object for that text file
     '''
-    print("Recursive Summarization Initialized!")
+    print("ParagraphExtraction Initialized!")
     # Create Title
     self.article_title = self.clean_filename(os.path.basename(urlToText).split(".")[0])
     # Generate and clean text
@@ -27,7 +27,8 @@ class ParagraphExtraction:
   # DATA CLEANING
   # --
   # Remove empty lines and strip new-lines
-  def strip_text(self, text_list):
+  @staticmethod
+  def strip_text(text_list):
     '''
     Takes in a list of strings. 
     Strips each string and then removes empty lines in the list.
@@ -37,7 +38,8 @@ class ParagraphExtraction:
     return text
 
 
-  def merge_lines(self, text_list):
+  @staticmethod
+  def merge_lines(text_list):
     '''
     Takes in a list of strings. 
     Ensures that all of the lines end on a period so there aren't uneven cutoffs in the text.
@@ -91,7 +93,8 @@ class ParagraphExtraction:
 
 
   # Consolidate small lines into uniform paragraphs ~200 words
-  def consolidate_lines(self, text_list, max_paragraph_size = 200):
+  @staticmethod
+  def consolidate_lines(text_list, max_paragraph_size = 200):
     '''
     Takes in a list of strings. 
     Consolidates them into paragraphs or new strings of a generally uniform size.
@@ -128,7 +131,8 @@ class ParagraphExtraction:
     clean_text_temp = self.strip_text(clean_text_temp)
     return clean_text_temp
 
-  def clean_filename(self, string):
+  @staticmethod
+  def clean_filename(string):
     """
     Sanitize a string to be used as a filename.
     """
@@ -138,12 +142,13 @@ class ParagraphExtraction:
     string = string.replace(':', '_').replace('/', '_').replace('\x00', '_')
     string = re.sub('[\n\\\*><?\"|\t]', '', string)
     string = string.strip()
-    string = string.replace(' ', '_').replace('-', '_').replace('__', '_')
+    string = string.replace('-', '_').replace('—', '_')
+    string = string.replace(' ', '_').replace('__', '_').replace('__', '_').replace('__', '_')
     return string
 
   # WRITE TEXT TO JSONLINES FILE
   # --
-  def generate_jsonl_file(self, path_to_output):
+  def save_data_to_jsonl_file(self, path_to_output):
     '''
     Takes in 'path_to_output' url to output folder. 
     Converts the class's list data into a JSONL object and puts that file into the output folder.
@@ -163,7 +168,8 @@ class ParagraphExtraction:
       writer.close()
     return json_items
   
-  def generate_jsonl_file_with_external_data(self, path_to_output, data, title):
+  @staticmethod
+  def save_external_data_to_jsonl_file(path_to_output, data, title):
     '''
     Takes a list of strings as 'data', a string as 'title', and a path to a folder as 'path_to_output'. 
     Converts the list data into a JSONL object and puts that file into the output folder.
@@ -179,18 +185,3 @@ class ParagraphExtraction:
       writer.write_all(json_items)
       writer.close()
     return json_items
-
-
-# RUN & TEST
-# --
-
-# file_paths
-# --
-# file_path = "../test-data/NewYorkTimes.txt"
-# file_path = "../test-data/m2w.txt"
-file_path = "../extracted-text/Klein_Studying_the_History_of_Those_Who_Would_Rather_Forget_Oral_History_and_the_Experience_of_Slavery_copy.txt"
-output_folder = '../jsonl-data/'
-
-klein = ParagraphExtraction(file_path)
-print(klein.cleaned_text_list)
-klein.generate_jsonl_file(output_folder)
