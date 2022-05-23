@@ -1,20 +1,31 @@
 import os
 import openai
+from dotenv import load_dotenv
+
+
+load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 # ------------------------------------------------------------
 # Learning the completions endpoint
 # ------------------------------------------------------------
 # Testing it out
 def ask_about_historical_figure(figure):
-  prompt = "Tell me about " + figure + "."
+  prompt = f'''Tell me an important fact about this historical figure.
+
+    Figure: George Washington
+    Fact: First president of the United States.
+    Figure:{figure}
+    Fact: 
+  '''
 
 def return_prompt(prompt):
   return prompt
 
 def do_completion_request(inp, make_prompt, max_tokens=128):
     response = openai.Completion.create(
-        engine="text-ada-001",
+        engine="text-davinci-001",
         prompt=make_prompt(inp),
+        temperature=.8,
         max_tokens=max_tokens,
     )
     return response['choices'][0]['text']
