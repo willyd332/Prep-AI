@@ -11,7 +11,7 @@ class ParagraphExtraction:
   This class deals with extracting and cleaning raw text into clean, uniform paragraphs
   '''
 
-  def __init__(self, urlToText):
+  def __init__(self, urlToText, max_paragraph_size = 200):
     '''
     Init the extraction by creating an object for that text file
     '''
@@ -22,6 +22,7 @@ class ParagraphExtraction:
     raw_text_file = open(urlToText,"r")
     raw_text_list = raw_text_file.readlines()
     self.raw_text_list = raw_text_list
+    self.max_paragraph_size = max_paragraph_size
     self.cleaned_text_list = self.clean_text(raw_text_list)
   
   # DATA CLEANING
@@ -74,7 +75,7 @@ class ParagraphExtraction:
 
 
   # Reduce lines if lines are larger than the paragraph size
-  def reduce_lines(self, text_list, max_paragraph_size = 200):
+  def reduce_lines(self, text_list):
     '''
     Takes in a list of strings.
     Reduces the strings that are too long into new smaller strings.
@@ -83,7 +84,7 @@ class ParagraphExtraction:
     reduced_text = []
     # If line is too big split into sentences and remake line
     for line in text_list:
-      if len(line.split()) <= max_paragraph_size:
+      if len(line.split()) <= self.max_paragraph_size:
         reduced_text.append(line)
       else:
         sentences = make_sentences(line)
