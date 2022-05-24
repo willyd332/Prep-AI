@@ -20,6 +20,7 @@ class Summarization:
     '''
     print("Recursive Summarization Initialized!")
     self.text_list = text_list
+    self.length_of_text = self.count_words(self.make_string(self.text_list))
     self.max_summary_size = max_summary_size
     self.bullet_points = self.create_bullet_points(text_list)
     self.summary_list = self.create_summary_list()
@@ -76,7 +77,7 @@ class Summarization:
     response = openai.Completion.create(
       engine="text-ada-001",
       prompt=prompt,
-      temperature=0.2,
+      temperature=0.1,
       max_tokens=100
     )
     return response.choices[0].text
@@ -98,16 +99,18 @@ class Summarization:
     Returns summary in a string
     '''
     # Summarize article directly, or summarize bullet points
-    text_to_summarize = self.text_list
-    if self.count_words(self.make_string(text_to_summarize)) > 1000:
-      clean_bullet_points = ParagraphExtraction.strip_text(self.bullet_points)
-      clean_bullet_points = ParagraphExtraction.reduce_lines(clean_bullet_points)
-      clean_bullet_points = ParagraphExtraction.consolidate_lines(clean_bullet_points)
-      clean_bullet_points = ParagraphExtraction.strip_text(clean_bullet_points)
-      text_to_summarize = clean_bullet_points
-    # Create summary
+    clean_bullet_points = ParagraphExtraction.strip_text(self.bullet_points)
+    clean_bullet_points = ParagraphExtraction.reduce_lines(clean_bullet_points)
+    clean_bullet_points = ParagraphExtraction.consolidate_lines(clean_bullet_points)
+    clean_bullet_points = ParagraphExtraction.strip_text(clean_bullet_points)
+    text_to_summarize = clean_bullet_points
+    # Make sure summary isn't too long
+    summary_size = self.max_summary_size 
+    if self.length_of_text < 1500:
+      summary_size = max(round(self.length_of_text/3), 200)
     num_paragraphs = len(text_to_summarize)
-    max_paragraph_size = self.max_summary_size/num_paragraphs
+    max_paragraph_size = summary_size/num_paragraphs
+    # Create summary
     summary_prompt = f"Rewrite this paragraph into a new paragraph not longer than {str(max_paragraph_size)} words"
     summary_list = []
     for paragraph in text_to_summarize:
@@ -124,14 +127,3 @@ class Summarization:
       new_summary = clean_summary_list[i].rsplit(".", 1)[0] + "."
       clean_summary_list[i] = new_summary
     return clean_summary_list
-
-  
-
-'''
-Notes
-
- 3 Basic Prompt Creating Guidelines
-  1. Show and Tell, give instructions and examples
-  2. Provide quality data
-  3. Check your settings (Temperature & top_p). Is there only one right answer?
-'''
