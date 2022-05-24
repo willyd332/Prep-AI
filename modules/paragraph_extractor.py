@@ -75,7 +75,8 @@ class ParagraphExtraction:
 
 
   # Reduce lines if lines are larger than the paragraph size
-  def reduce_lines(self, text_list):
+  @staticmethod
+  def reduce_lines(text_list, max_paragraph_size = 200):
     '''
     Takes in a list of strings.
     Reduces the strings that are too long into new smaller strings.
@@ -84,11 +85,11 @@ class ParagraphExtraction:
     reduced_text = []
     # If line is too big split into sentences and remake line
     for line in text_list:
-      if len(line.split()) <= self.max_paragraph_size:
+      if len(line.split()) <= max_paragraph_size:
         reduced_text.append(line)
       else:
         sentences = make_sentences(line)
-        reduced_line = self.consolidate_lines(sentences)
+        reduced_line = ParagraphExtraction.consolidate_lines(sentences)
         reduced_text.extend(reduced_line)
     return reduced_text
 
@@ -119,13 +120,13 @@ class ParagraphExtraction:
 
   # CLEAN THE TEXT
   # --
-  def clean_text(self, raw_text_input):
+  def clean_text(self, raw_text_list):
     '''
     Takes in a list of strings. 
     Applies cleaning functions to the raw text.
     Returns a list of strings.
     '''
-    clean_text_temp = self.strip_text(raw_text_input)
+    clean_text_temp = self.strip_text(raw_text_list)
     clean_text_temp = self.merge_lines(clean_text_temp)
     clean_text_temp = self.reduce_lines(clean_text_temp)
     clean_text_temp = self.consolidate_lines(clean_text_temp)
