@@ -1,0 +1,1542 @@
+
+In the United States, voters directly elect dozens of politicians: presidents, governors, legislators, mayors, and so on.
+How do voters decide which politician to blame for which policy outcomes? Previous research on gubernatorial
+approval has suggested that voters divide policy blame between governors and the president based on each ofﬁce’s
+‘‘functional responsibilities’’—requiring that responsibilities are clear cut, which is seldom true. Using data from
+four surveys, I show that voters actually divide responsibility for economic conditions in a partisan manner,
+preferring to blame ofﬁcials from the opposing party when problems arise.
+
+T he United States is unique among democracies
+
+in the burden it imposes on its voters. Not
+only are American elections frequent, but they
+feature a dizzying number of choices. In California,
+often an extreme example of this tendency, each voter
+in 2006 had to evaluate thirteen proposed initiatives
+in addition to candidates for seven statewide ofﬁces,
+two Congressional ofﬁces, two state legislative ofﬁces,
+and various judgeships. As if that were not enough,
+most voters would also have found on their ballots
+candidates for their city council, county board of
+supervisors, school board, and other (often obscure)
+local elected ofﬁces.
+
+The difﬁculties created by such a complex hyper-
+democratic system have given rise to entire literatures
+dealing with voter fatigue, ballot roll-off, and voter
+sophistication. However, the presence of so many
+independently elected ofﬁcials, often with overlap-
+ping responsibilities, creates an additional problem:
+blame. Elections are thought
+to provide a link
+whereby voters can hold elected ofﬁcials responsible
+for their activities in ofﬁce (Ferejohn 1986). But when
+something goes wrong—unemployment
+is high,
+schools are failing, or crime is up—how do voters
+know which of
+to hold
+responsible?
+
+these politicians
+
+all
+
+To examine all the diverse and complicated layers
+of authority in America’s federal system would be
+beyond the scope of this paper. Instead, I pay primary
+attention to the most prominent politician at each level
+of American federalism: presidents and governors. I
+
+am by no means the ﬁrst to explore this relationship;
+indeed, several well-regarded publications have de-
+bated how state and national conditions interact in
+gubernatorial elections. The reigning argument at pres-
+ent is that voters evaluate governors and presidents with
+reference to each ofﬁce’s ‘‘functional responsibilities,’’
+expecting presidents to provide national security and
+Social Security while expecting governors to provide
+education, highways, and prosperity (Arceneaux 2006;
+Atkeson and Partin 1995, 2001).
+
+is
+
+However, this sort of argument fails to account
+for the powerful and well-documented role that par-
+tisanship plays in structuring American voters’ be-
+havior. My argument, detailed below,
+that
+Americans rely heavily on partisan shortcuts when
+deciding whether to hold their governor (as opposed
+to the president) responsible for state-level policy
+outcomes—especially when functional responsibility
+for a particular policy area is shared by both the
+governor and the president. Of course, it’s far from
+novel to suggest that partisanship matters in Amer-
+ican politics; previous research has shown abundantly
+that voters tend to have more patience with politi-
+cians of their own party than with politicians from
+the other side. My major claim is not just that
+partisanship matters, then, but rather that partisan-
+ship helps determine which policy results get attrib-
+uted to the governor and which get attributed to the
+president. Previous work on gubernatorial elections
+has erred by emphasizing functional responsibility
+without also taking account of partisanship.
+
+To be clear, I do not intend to argue that voters
+will completely ignore the president’s and governor’s
+actual functional responsibilities; even the least en-
+gaged citizen should know that governors have as little
+control over foreign policy as presidents have over
+potholes. Rather, my argument is that partisan con-
+siderations will inﬂuence allocations of blame in the
+many policy areas where the president and the gover-
+nor share responsibility—an argument I test by anal-
+yzing responsibility for the state’s economy. When the
+president and the governor belong to the same party,
+there is not much opportunity for a partisan blame
+game to develop between them. But when they belong
+to different parties, a situation I refer to as ‘‘divided
+federalism,’’ partisan voters gain the opportunity to
+blame one for economic problems while giving the
+other a free pass. Just as divided government creates a
+potential blame game between the president and
+Congress, divided federalism creates a similar situation
+between the president and the governors.
+
+I proceed now by brieﬂy reviewing the two main
+literatures I draw on—the literatures on partisan bias
+and on gubernatorial elections—and show how the
+latter can beneﬁt by incorporating insights from the
+former. I then explore three speciﬁc empirical im-
+plications of this theoretical argument.
+
+A Theory of Partisan Bias and
+
+Divided Federalism
+
+Studies of partisan bias began decades ago with the
+psychological model
+introduced in The American
+Voter (Campbell et al. 1960); an updated take on this
+argument is that voters simply reject information that
+challenges their prior beliefs (Zaller 1992), or that
+they choose to give greater credibility to information
+from sources they trust (Lupia and McCubbins 1998;
+Page, Shapiro, and Dempsey 1987), even if those
+sources are potentially biased.
+
+Regardless of which of these mechanisms produ-
+ces partisan bias, we have evidence that the biases
+exist. First, we have evidence that partisanship colors
+voter evaluations of policy outcomes: Conover,
+Feldman, and Knight have provided detailed evidence
+that retrospective (1986) and prospective (1987)
+economic evaluations strongly reﬂect respondents’
+political views, arguing that these evaluations ‘‘be-
+come extensions of partisan evaluations of the pres-
+ident’s capabilities’’ (1987, 578; see also Bartels 2002).
+A similar story arises with regard to consumer con-
+ﬁdence surveys; although actual economic conditions
+
+have a strong impact on consumer conﬁdence, poli-
+tical evaluations also play a signiﬁcant role (De Boef
+and Kellstedt 2004). In addition, we have evidence
+that partisan factors inﬂuence whether voters will
+consider economic conditions when voting in Con-
+gressional elections
+(Fiorina 1983; Hibbing and
+Alford 1981).
+
+These ﬁndings have come from research primarily
+concerned with the national setting; these insights
+have not been fully applied to the subnational context.
+In fact, the second literature I draw on—the literature
+on gubernatorial approval and elections—has largely
+overlooked these results. Instead, most research in this
+second literature has debated whether voters hold
+governors accountable for local (i.e., state-level) con-
+ditions or whether governors are entirely at the mercy
+of the president’s coattails. Few dispute that national
+partisan trends and national economic conditions
+inﬂuence gubernatorial approval and elections; the
+question has been whether local conditions, typically
+operationalized with state economic indicators, also
+matter.
+
+The answer to this latter question has remained
+elusive. Table 1 summarizes the results of several
+inﬂuential studies; the inconsistency is striking. Some
+studies have found that state economic variables
+affect gubernatorial approval (Atkeson and Partin
+1995; Jacobson 2006; Niemi, Stanley, and Vogel
+1995); others have found that they do not (Crew
+and Weiher 1996; Peltzman 1987); and still others
+have found the effect to be contingent on some other
+factor (Ebeid and Rodden 2006; Leyden and Borrelli
+1995; Stein 1990). These inconsistencies may arise
+from a widespread but implicit assumption that if
+local conditions matter, all voters will objectively take
+equal account (or non-account) of
+them when
+evaluating the governor—an assumption at serious
+odds with the work on partisanship and bias refer-
+enced above.
+
+Those arguing that only national conditions
+affect gubernatorial popularity imply, in effect, that
+voters blame the president for every policy outcome,
+at any level, and evaluate all subnational politicians
+based solely on the president’s performance.1 Those
+arguing that local conditions also matter imply that
+voters have some standard by which to assign
+responsibility for some policies to the governor even
+while assigning responsibility for other policies to the
+
+1This may read as a straw man, but it is frequently implied in the
+gubernatorial elections literature. Peltzman’s words provide one
+example: ‘‘[Americans] vote as if they understand that national
+rather than local policies have the dominant effect on their
+income’’ (1987, 296).
+
+TABLE 1 The Literature’s Mixed Findings—Do State Economics Matter?
+
+Citation and object of study
+
+Unemployment
+
+Growth
+
+Tax rates
+
+Evaluation
+
+State economic indicators
+
+Election Results: Individual Data
+Atkeson and Partin 1995: Cross-sectional ANES
+Carsey and Wright 1998: Cross-sectional ANES, exit polls
+Niemi et al 1995: Cross-sectional exit polls
+Stein 1990: Cross-sectional exit polls
+Election Results: Aggregate Data
+Chubb 1988: 666 gubernatorial elections
+Ebeid and Rodden 2006: 673 gubernatorial elections
+Kenney 1983: 14-state election series
+Leyden and Borrelli 1995: 215 gubernatorial elections
+Peltzman 1987: 269 gubernatorial elections
+Job Approval: Aggregate Data
+Crew and Weiher 1996: Quarterly surveys, 3 states
+Jacobson 2006: Cross-sectional survey
+MacDonald and Sigelman 1999: Cross-sectional survey
+
+Contingent
+No
+Contingent
+No
+
+No
+Yes: 2
+
+Yes: +
+
+Yes: 2
+
+Slight: +
+Yes: +
+No
+
+No
+
+Yesb: 2
+
+No
+
+Contingent
+
+Yes: +
+Yes: +
+
+Contingenta
+
+Note: ‘‘No’’ means a variable was studied but found to be insigniﬁcant. ‘‘Yes’’ means a variable was statistically signiﬁcant, affecting
+incumbents in the indicated direction. If a cell is blank, the given study did not test it. See text for explanations of contingent effects.
+aStein’s respondents evaluate their personal ﬁnancial situation, not the state economy.
+bPeltzman measures increases in the state budget, not tax increases per se.
+
+president. As noted earlier, the major argument at
+present is that voters assign blame based on the
+president’s and governor’s actual responsibilities:
+voters perceive objective differences between the
+duties of presidents and governors and vote accord-
+ingly. This explanation omits partisan bias entirely,
+predicting instead that all voters will attribute re-
+sponsibility for the same issues to the same ofﬁcials.
+My argument modiﬁes this functional responsi-
+bility hypothesis by introducing insights from the
+literature on partisanship and bias. I do not attempt
+to displace the functional responsibility claims en-
+tirely; when gubernatorial and presidential responsi-
+bilities are clearly delineated, we may well observe
+voter behaviors roughly consistent with the func-
+tional responsibility argument. But when responsi-
+bilities are unclear, as is often the case, the functional
+responsibility mechanism cannot logically operate. In
+this situation, I expect the literature on partisanship
+and bias to become relevant. Rudolph (2003) has
+already shown that partisan considerations affect
+whether a voter will blame Congress or the president
+for national economic problems. My central claim is
+that American federalism creates a similar blame
+game between governors and the president: voters
+will tend to blame whichever level of government that
+is not controlled by their own party.
+
+Recently, Malhotra and Kuo (2008) published the
+results of an experimental survey that illustrates my
+
+information about
+
+argument. In their poll, they asked respondents to
+attribute blame among federal, state, and local ofﬁ-
+cials for the government’s poor response to Hurricane
+Katrina. Respondents were randomly assigned to
+receive different
+these ofﬁcials.
+When provided with information about each ofﬁcial’s
+responsibilities, voters tended to assign blame in a
+manner consistent with the functional responsibility
+hypothesis. But when provided only with each ofﬁ-
+cial’s partisan afﬁliation, respondents tended to blame
+ofﬁcials from the opposite party. These experimental
+results reinforce my claim that voters will rely on
+partisan shortcuts when functional responsibilities are
+unclear.
+
+I conﬁrm and expand these experimental ﬁndings
+by examining real-world data in another policy area
+where functional
+responsibilities are particularly
+murky: economics. Even the functional responsibility
+theorists disagree as to whether governors or presi-
+dents bear responsibility for economic conditions,
+illustrating just how imprecise the division of labor
+is.2 Because functional responsibility for the economy
+is ambiguous, I expect voters to assign blame in a
+partisan manner—but only when the governor and
+president belong to different parties. In the absence of
+
+2Atkeson and Partin (1995) assign all economic responsibility to
+governors; Carsey and Wright (1998) argue that presidents bear
+national economic responsibility while governors are responsible
+only for the state’s economic health relative to the nation’s.
+
+this divided federalism, voter partisanship should not
+make much difference. Stated precisely: When the
+governor and the president belong to different parties,
+voter partisanship should strongly inﬂuence whether
+voters will blame the governor instead of the president
+for a particular policy outcome.
+
+I test this general argument by exploring three of
+its observable implications. First, I begin with a
+reanalysis of Stein’s (1990) study of the 1982 guber-
+natorial elections, in which voters were asked explic-
+itly to assign blame for state economic problems to
+either the president or their governor. As it happens,
+voters do indeed assign blame in a more partisan
+manner under divided federalism. Second, I use
+recent polling data to show that partisan consider-
+ations also inﬂuence whether respondents think their
+state’s economy is outperforming the nation’s; under
+divided federalism, voters overestimate the economic
+performance of whichever level of government that
+their party controls. Third and most importantly, I
+address the major question of the gubernatorial elec-
+tions literature—namely, whether voters hold gover-
+nors accountable for state-level economic conditions.
+The widely used functional responsibility argument
+implies that all voters should do so. By contrast, I ﬁnd
+that partisan biases determine whether state econom-
+ics correlate with gubernatorial approval—a pattern
+that may explain the mixed ﬁndings summarized in
+Table 1.
+
+Partisanship and Blame
+
+to whether
+
+Stein (1990) was the ﬁrst to recognize that voters
+might disagree as
+the president or
+governor bore responsibility for the state’s economy.
+Nevertheless, he did not seek to explain this hetero-
+geneity, choosing instead to treat blame as exoge-
+nous. By revisiting the 1982 exit poll data that he
+used, however, we can see clear evidence that parti-
+sanship strongly inﬂuences attributions of blame.
+Table 2 replicates one of Stein’s tables, summarizing
+how voters in each state chose to assign blame for the
+state’s economy. Only in California, New York, and
+Nevada did more respondents blame their governor
+than blamed Ronald Reagan.
+
+By contrast, Table 3 presents the same data
+divided by partisan subgroup, an analytic step Stein
+did not take. This simple change makes it apparent
+that blame strongly reﬂects respondent partisanship.
+In every state with a Democratic governor, Repub-
+licans blamed their governors and Democrats blamed
+Reagan, a Republican; in every state with a Repub-
+
+TABLE 2 Who is Responsible for the Economic
+
+Problems in Your State?
+
+State
+
+Reagan
+
+Governor
+
+Both Neither
+
+All states
+California
+Connecticut
+Maine
+Massachusetts
+Michigan
+Minnesota
+Nebraska
+Nevada
+New Mexico
+New York
+Ohio
+Rhode Island
+Tennessee
+Texas
+Vermont
+Wyoming
+
+25.4
+28.4
+32.4
+37.7
+24.3
+20.0
+19.5
+16.6
+14.4
+34.0
+27.1
+26.2
+42.4
+34.5
+19.4
+28.4
+29.4
+
+15.4
+36.3
+15.8
+13.7
+11.3
+14.5
+13.2
+9.8
+17.2
+15.6
+27.6
+10.3
+14.0
+6.8
+9.3
+5.7
+11.4
+
+18.4
+17.1
+12.4
+12.2
+24.3
+25.7
+27.0
+21.9
+22.3
+13.1
+27.2
+23.1
+13.4
+22.5
+19.8
+15.0
+8.2
+
+34.5
+18.3
+39.5
+36.5
+40.2
+39.9
+40.3
+51.7
+46.1
+37.4
+18.3
+40.3
+30.2
+36.3
+51.5
+50.8
+51.0
+
+Note: Reprinted from Stein (1990, Table 4), based on the 1982
+CBS News/New York Times exit polls.
+
+lican governor, Republicans blamed neither Reagan
+nor the governor, and Democrats blamed Reagan or
+(more frequently) both. And across
+the board,
+Republicans were more likely to claim that neither
+Reagan nor the governor was to blame, or perhaps
+that there were no problems to blame on anybody—a
+pattern that may reﬂect some weaknesses with the
+survey question.3
+
+Once we take account of respondent partisanship
+in this manner, respondents with Democratic gover-
+nors showed broad consensus in their decisions about
+blame; Democrats blamed Reagan alone by a 40.3
+point margin, while Republicans blamed the gover-
+nor alone by a 20.3 point margin, which combine for
+a net partisan effect of 60.6 percentage points. Mean-
+respondents with Republican governors
+while,
+
+3The poll asked, ‘‘Who’s more to blame for economic problems
+in (respondent’s state): President Reagan, Governor (name),
+both, or neither?’’ Perhaps some who said ‘‘neither’’ thought
+there were no economic problems—or at least, they did not want
+to admit that Republican leaders had failed them. Or perhaps
+they thought that economic problems arose independently of
+government policies. The latter explanation would be consistent
+with Rudolph’s (2003) work, which shows that economically
+conservative respondents will blame labor or business leaders for
+economic conditions, given the opportunity to do so, regardless
+of partisan considerations—although economic conservatism
+does tend to correlate with Republicanism.
+
+
+State
+
+Reagan
+
+Gov
+
+Both
+
+Neither
+
+Reagan
+
+Gov
+
+Both
+
+Neither
+
+Republican
+respondents
+
+Democratic
+respondents
+
+Democratic governors
+CA
+CT
+ME
+MA
+NM
+NY
+RI
+WY
+Average
+Net blame for Reagan
+Republican governors
+MN
+MI
+NE
+NV
+OH
+TN
+TX
+VE
+Average
+Net blame for Reagan
+
+11.6
+10.9
+15.9
+8.6
+11.4
+13.2
+11.2
+9.4
+11.5
+220.3
+
+7
+6.1
+7.6
+6
+8.3
+16.2
+6.3
+9.9
+8.4
+21.3
+
+59.4
+26.8
+24.3
+20.1
+27.1
+45.3
+34.1
+17
+31.8
+
+12.3
+15.7
+8.1
+16.5
+10.5
+3.6
+4.8
+6.1
+9.7
+
+10.2
+10.9
+12.4
+5.1
+7.5
+19.7
+10
+8
+10.5
+
+11
+14.4
+9.5
+8.3
+11.7
+7.8
+4.2
+7.7
+9.3
+
+18.9
+51.5
+47.4
+66.2
+53.9
+21.9
+44.7
+65.7
+46.3
+
+69.7
+63.9
+74.8
+69.2
+69.6
+72.5
+84.7
+76.2
+72.6
+
+43.6
+52.9
+60.8
+35.7
+51.2
+40.5
+66.3
+55.8
+50.9
+40.3
+
+30.4
+32.8
+26.9
+23.3
+40.7
+47.2
+31.9
+49.6
+35.4
+23.9
+
+20.2
+9.7
+6.8
+8.8
+9
+14.8
+9.6
+5.8
+10.6
+
+13.6
+11.4
+11.9
+18.2
+9.2
+8.7
+12.2
+7.1
+11.5
+
+21.6
+11.8
+10.7
+30.3
+16.7
+32.5
+8.5
+7.7
+17.5
+
+40
+37.7
+39.5
+34.6
+31.2
+30.5
+32.8
+21.1
+33.4
+
+14.7
+25.7
+21.7
+25.2
+23.1
+12.2
+15.6
+30.7
+21.1
+
+16
+18.2
+21.7
+24
+19
+13.6
+23.1
+22.2
+19.7
+
+609
+
+Partisan
+
+Effect
+
+60.6
+
+25.3
+
+Source: The 1982 CBS News/New York Times exit polls, obtained from ICPSR.
+Note: Averages are not weighted. Bold type is for emphasis only; see text.
+
+showed far less agreement. Democrats continued to
+favor blaming Reagan, but by only half the margin
+(23.9 points); by contrast, Republicans were torn
+between blaming Reagan and the governor, blaming
+governors by an inconsequential 1.3 point margin. To
+quantify the effect of partisanship on attributions of
+blame, note that the difference in differences is 60.6
+points in states with Democratic governors but only
+25.3 points in states with Republican governors;
+respondent partisanship had a much weaker effect
+in the latter set of states than in the former.
+
+It appears, then, that respondent partisanship
+shaped attributions of blame in 1982; in turn, Stein’s
+important work shows that these attributions deter-
+mined whether economic conditions affected gover-
+nors on election day. These partisan patterns were
+most obvious under divided federalism, since re-
+spondents could choose to blame either the Demo-
+cratic governor or the Republican president. Without
+divided federalism, the patterns were far weaker; with
+both the governor and the president belonging to the
+
+same party, respondents were less sure whether to
+blame both or neither. Respondent partisanship
+mattered much more under divided federalism than
+elsewhere in determining allocations of blame.
+
+Partisanship and Economic
+
+Evaluations
+
+The 2006 gubernatorial elections took place in a
+similar context as the 1982 elections: The economy
+was generally weak, and the president was a Repub-
+lican. This similarity affords us the methodologically
+important opportunity to test whether patterns ob-
+served in one context (the 1982 elections) also
+occurred in another (the 2006 elections). Although
+pollsters in 2006 did not ask an explicit blame question
+like they did in 1982, though, they did ask questions
+that ought to reﬂect other observable implications of
+my theoretical argument. In particular, respondents to
+
+the Cooperative Congressional Election Study (CCES)
+were asked to evaluate their state’s and the nation’s
+economies.4 As discussed earlier, previous research has
+shown that presidential approval strongly inﬂuences
+evaluations of the national economy. As a straightfor-
+ward extension of this insight, under divided feder-
+alism we should expect economic evaluations to favor
+whichever level of government that is controlled by a
+respondent’s preferred party.
+
+To address this question requires survey data in
+which respondents evaluate their state’s economy
+relative to their nation’s—not their state economy
+alone. Under divided federalism, we should observe
+strong partisan biases; members of the governor’s
+party should overestimate the state economy’s health
+relative to the nation’s, while members of the presi-
+dent’s party should do the opposite. Without divided
+federalism, we should not observe this pattern; all
+respondents should be equally likely to over- or
+underestimate the state’s health relative to the nation’s.
+Unfortunately, pollsters do not typically ask for
+such relative evaluations of the state economy as
+compared to the nation’s. Nevertheless, we can easily
+construct such a relative measure from the CCES
+data. Respondents evaluated their state’s economic
+health over the previous year; they answered a similar
+question about the national economy. Both questions
+used a closed-form response ranging over a 5-point
+scale from ‘‘much better’’ and ‘‘better’’ to ‘‘worse’’
+and ‘‘much worse.’’ By subtracting national evalua-
+tions from state evaluations, we can construct an
+index measure of each respondent’s evaluation of the
+state’s economy relative to the nation’s. This new
+measure ranges from 24 (the state economy is much
+worse than the national economy) to +4, though
+scores fall between 22 and +2 (inclusive) for 97% of
+respondents.5 This variable is almost perfectly nor-
+mal, with mean 20.07 and standard deviation 1.03,
+
+4Polimetrix ﬁelded the CCES during the November 2006 elec-
+tions under the direction of Stephen Ansolabehere, Doug Rivers,
+and Lynn Vavreck. This survey involved over 30,000 respondents
+answering questions on dozens of topics. For details, see http://
+web.mit.edu/polisci/portl/cces/.
+
+5Because respondents have only ﬁve options when evaluating
+either the state or national economy,
+it is possible that an
+extremely optimistic respondent could give the highest score to
+the nation but ﬁnd herself unable to give an even higher score to
+the state. To verify that this potentiality did not skew any of the
+results below, I repeated all these analyses omitting the 4,474
+respondents who gave the best (or worst) possible evaluation
+both to their state and to the nation; the substantive conclusions
+were the same.
+
+indicating that respondents do not systematically
+favor one level of the economy over the other.
+
+An advantage of this composite measure is that it
+has a correct answer that respondents should have
+given, regardless of personal political beliefs: Either
+the state economy was stronger than the national
+economy or it was not. In a world of objective,
+informed citizens, raw economic indicators would
+predict most (or all) of the variance in this measure.
+Such objectivity seems to be assumed in three of the
+most widely read studies dealing with gubernatorial
+approval—that is, Atkeson and Partin (1995), Carsey
+and Wright (1998), and Stein (1990). In these three
+studies, the authors attempt to learn whether gover-
+nors are held accountable for state-level economic
+conditions; in all three studies, the authors measure
+state economic conditions using respondent evalua-
+tions of the state economy rather than using raw
+macroeconomic indicators. This method is not prob-
+lematic as long as respondent evaluations actually
+measure the true pulse of the state’s economy—a
+proposition that the theoretical arguments presented
+above should lead us to question. By contrast,
+if
+partisan biases inﬂuence respondent economic eval-
+uations, then regressing gubernatorial approval on
+economic evaluations as these three studies do might
+not be much different from regressing gubernatorial
+approval on itself.
+
+Table 4 presents the results of two linear regres-
+sions that test these ideas. In each, the dependent
+
+TABLE 4 Partisan Bias in Evaluating the State’s
+
+Economy Relative to the Nation’s
+
+Democratic
+
+governor
+
+Republican
+governor
+
+State’s unemployment
+
+20.17* (0.05) 20.10† (0.05)
+
+rate relative to
+nation’s
+
+0.04 (0.03)
+0.00 (0.04)
+20.42* (0.04) 20.13* (0.03)
+21.15* (0.07) 20.48* (0.04)
+
+Yes
+
+3 Independent respondent 20.09* (0.02)
+3 Republican respondent 20.20* (0.06)
+Independent respondent
+Republican respondent
+Demographic controls
+Constant
+N
+Clusters (states)
+R2
+
+10,810
+22
+0.27
+
+0.40* (0.09)
+
+Yes
+
+0.26* (0.04)
+
+15,997
+28
+0.10
+
+Note: The dependent variable is the respondent’s evaluation of
+the state’s economy relative to the nation’s. Cluster-corrected
+standard errors in parentheses; sampling weights applied. Dem-
+ographic controls include income, marital status, race, sex,
+education, home ownership, and employment status. †p #
+0.10, *p # 0.05.
+
+are governors responsible for the state economy?
+
+611
+
+variable is the respondent’s evaluation of the state’s
+economy relative to the nation’s, as discussed above.
+The ﬁrst independent variable is each state’s average
+May-November 2006 unemployment rate, with the
+national rate subtracted out, interacted with respond-
+ent partisanship. Regardless of the governor’s parti-
+sanship, the state’s unemployment rate does have a
+modest
+relationship with economic evaluations;
+states with a higher relative unemployment rate
+receive lower relative evaluations. Respondent parti-
+sanship also matters; in both regressions, Democrats
+tended to give higher ratings to their state relative to
+the nation than Republicans did, likely as a result of
+Bush’s polarizing
+the national
+economy.
+
+stewardship of
+
+Most signiﬁcantly, though, the relationship be-
+tween state unemployment and respondent partisan-
+ship is strongly interactive—but only under divided
+federalism (that is, where the governor was a Dem-
+ocrat in 2006). The marginal effect for Democrats
+with Democratic governors is statistically similar to
+the marginal effect for respondents of either party
+with Republican governors; all three estimated co-
+efﬁcients fall between 0.10 and 0.17. For these three
+types of respondent, actual economic conditions
+clearly had a meaningful effect on their economic
+evaluations, but not an overwhelming one; a one-
+point rise in a state’s unemployment rate relative to
+the nation’s would produce only a modest (0.10–
+0.17) drop in respondents’ evaluations of the state’s
+economy relative to the nation’s.6 For Republicans
+with Democratic governors, however, the estimated
+effect is two to three times stronger at 20.38.
+
+This interactive ﬁnding does not
+
+imply that
+Republicans are necessarily more objective than
+Democrats;
+if that were the case, the interaction
+would not be limited to states with divided feder-
+alism. Rather, it shows that partisanship and feder-
+alism interact to inﬂuence how respondents assign
+blame for policy problems in their states. Republicans
+with Democratic governors had every reason to
+blame their governor for high unemployment in
+2006; the alternative was blaming their Republican
+president. By contrast, Democrats with Democratic
+governors had an opportunity to shift some of the
+responsibility for their state’s economic conditions to
+
+the president, resulting in a decreased coefﬁcient for
+this group.
+
+More broadly, the general ﬁnding in this table is
+that respondent partisanship produces stronger per-
+ceptual biases under divided federalism than else-
+where. Where the governor and the president
+belonged to different parties, partisanship had a
+strong effect on respondent evaluations of the state’s
+economy relative to the nation’s; where the governor
+and the president belonged to the same party,
+partisanship had almost no effect.7 These patterns
+are consistent with those reported in the previous
+section.
+
+Gubernatorial Approval and
+
+Economic Conditions
+
+I now turn to the gubernatorial approval literature’s
+major debate: whether voters hold governors respon-
+sible for state-level economic conditions. As sum-
+marized in Table 1 earlier, previous research has been
+unable to show conclusively whether state economic
+conditions inﬂuence gubernatorial popularity. My
+results thus far suggest a possible reason for the
+literature’s mixed results. First, I have shown that
+voters assign responsibility for the state economy in a
+partisan manner—particularly under divided feder-
+alism. Second, I have shown that voters form per-
+ceptions of
+the state’s economy relative to the
+nation’s in a partisan manner—particularly under
+divided federalism. Together, these results imply that
+the statistical relationship between state economic
+conditions and gubernatorial approval will be medi-
+ated by
+voter partisanship—particularly under
+divided federalism.
+
+The 2006 CCES survey included questions about
+gubernatorial approval, making a test of this claim
+possible. CCES respondents appraised their respec-
+tive governors along a 4-point scale, from ‘‘strongly
+disapprove’’ and ‘‘disapprove’’
+to ‘‘approve’’ and
+‘‘strongly approve.’’8 Although many variables may
+affect approval, the focus here is on the governor’s
+state’s macroeconomic
+responsibility
+health—in particular,
+rate, a
+
+its unemployment
+
+the
+
+for
+
+6Unemployment rates have a standard deviation of 1.04; these
+economic evaluations have a standard deviation of 1.03. As such,
+these marginal coefﬁcients are roughly equivalent to standardized
+coefﬁcients.
+
+7Note that this does not mean that there are no partisan biases in
+states governed by the president’s party, only that there is no bias
+toward (or against) the state as opposed to the nation.
+
+8Respondents choosing the ‘‘not sure’’ option are omitted from
+this analysis, since ‘‘not sure’’ can mean either ‘‘I don’t know’’ or
+‘‘neutral.’’ The variable is coded from 1 through 4.
+variable worth investigating because it has produced
+such inconsistent results in previous research.9
+
+the ﬁrst model covers
+
+for predicting this ordinal
+
+Table 5 presents the results of four regressions.
+The ﬁrst two use ordered logit; the next two estimate
+the same models using ordinary least squares. In each
+pair,
+states with divided
+federalism (i.e., Democratic governors in 2006) and
+the next covers the remaining states. The dependent
+variable is the respondent’s evaluation of the governor.
+Strictly speaking, ordered logit would be the most
+appropriate tool
+four-
+category variable. However, OLS gives substantively
+similar results; because it is easier to interpret, I will
+restrict my discussion below to the two OLS models.
+The most important variable is each state’s unemploy-
+ment rate, interacted with partisanship.10 As predicted,
+the effect of state economic performance is not
+constant across partisan subgroups. Under divided
+federalism, there is a strong, statistically signiﬁcant
+partisan interaction; the state’s unemployment rate
+had a clear effect on gubernatorial approval among
+Republican respondents but no measurable effect
+among Democratic respondents. Without divided
+federalism, by contrast, Republican and Democratic
+respondents were statistically indistinguishable.
+
+Table 6 replicates the preceding analysis using
+gubernatorial approval data gathered at a different
+point in time (early 2006) by a different organization
+(SurveyUSA).11 The independent variables are state
+unemployment rates and state-level approval ratings
+for George W. Bush among the speciﬁed partisan
+subgroup. The approval and unemployment measures
+are averages covering January through March 2006.12
+
+9Careful readers might object to my use of unemployment by
+reference to the ‘‘issue ownership’’ literature, pointing out that
+Democrats own the issue of unemployment (Petrocik 1992).
+Nevertheless, the nature of my ﬁndings suggests that more than
+issue ownership is at work. Issue ownership would lead us to
+expect Democratic governors (not Republican governors) to be
+held accountable for unemployment, regardless of presidential
+party; we might also expect Democratic respondents to care more
+than Republican respondents about unemployment. Together,
+these expectations would lead us to predict patterns very different
+from those I ﬁnd.
+
+10State unemployment rates are averaged over the six months
+preceding the survey. Demographic control variables include
+respondent income and dummies for race, marriage, sex, educa-
+tion, home ownership, and employment status. Louisiana is
+omitted because of its political and economic volatility following
+Hurricane Katrina
+
+11Approval ratings are measured only among those expressing an
+opinion. Louisiana is again omitted. Brown (2008) and Jacobson
+(2006) discuss SurveyUSA’s reliability and validity.
+
+12This decision was arbitrary but not consequential; when using
+data from other periods in the SurveyUSA series, the results are
+essentially the same. See Brown (2008).
+
+New Jersey and Virginia are omitted, since they held
+gubernatorial elections in November 2005, and their
+new governors were only beginning their terms during
+this period.
+
+The estimated effects of state unemployment
+rates on gubernatorial approval are the coefﬁcients
+of greatest theoretical interest. Again, partisan differ-
+ences are strong under divided federalism but weak
+and insigniﬁcant elsewhere. Because SurveyUSA re-
+leases only aggregate approval data, I cannot run the
+same interactive models as in Table 5, nor can I
+include the same demographic controls. Nevertheless,
+the partisan differences are apparent. As in Table 5,
+where the governor was a Democrat, Republicans
+held their governors accountable for high unemploy-
+ment but Democrats did not; elsewhere, there was
+not a signiﬁcant partisan pattern.
+
+We can observe the same pattern yet again in a
+replication of Carsey and Wright’s (1998) model of
+the effects of state economic evaluations on guberna-
+torial voting. The ﬁrst column in Table 7 reprints
+their ﬁnal logit estimates of the effect of respondent
+evaluations of the state economy on the probability of
+voting for the incumbent gubernatorial candidate.
+Although their analysis (and my replication) contains
+several additional variables, I display only one co-
+efﬁcient from each logit model—the estimated mar-
+ginal effect of respondent economic evaluations.
+When I estimate these regressions separately by
+respondent party in the latter two columns of the
+table, the importance of divided federalism again
+becomes apparent. Table 7 tells the same story as
+Tables 5 and 6: in states with divided federalism, the
+estimated effect of state economic conditions on
+gubernatorial voting was more than three times as
+strong among the president’s copartisans as among
+the governor’s. In states without divided federalism,
+there was no meaningful partisan difference.
+
+This interactive ﬁnding in Tables 5, 6, and 7
+might seem odd if not for the other results discussed
+earlier in this paper. Recall
+that under divided
+federalism, respondents can choose to blame either
+their governor or the president for high unemploy-
+ment. As Table 3 shows, members of the president’s
+party living under divided federalism are the group
+that is most likely to choose to blame the governor
+for state-level economic problems. And as Table 4
+shows, this is the same group of respondents that
+is likely to sharply adjust its state economic evalua-
+tions downward when confronted with poor eco-
+nomic performance. In light of these two earlier
+ﬁndings, it is hardly surprising that this same group
+of
+strongest account of
+
+respondents also takes
+
+are governors responsible for the state economy?
+
+613
+
+TABLE 5 Gubernatorial Approval and the State Economy (CCES)
+
+Ordered Logit
+
+OLS
+
+Governor’s party
+
+Democrat
+
+Republican
+
+Democrat
+
+Republican
+
+State unemployment rate
+3 Republican respondent
+Bush approver
+3 Republican respondent
+Republican respondent
+Demographic controls
+Cut 1 or Constant
+Cut 2
+Cut 3
+N
+Clusters (states)
+R2
+
+20.11 (0.14)
+20.39* (0.17)
+21.02* (0.23)
+20.08 (0.20)
+0.12 (0.76)
+
+Yes
+
+23.49* (0.73)
+22.17* (0.72)
+0.07 (0.72)
+
+6495
+21
+–
+
+20.38* (0.17)
+20.26 (0.23)
+1.96* (0.16)
+20.55* (0.14)
+2.51* (1.04)
+
+Yes
+
+21.92* (0.80)
+20.54 (0.82)
+1.49† (0.85)
+
+9986
+28
+–
+
+20.05 (0.05)
+20.18* (0.07)
+20.46* (0.09)
+20.07 (0.09)
+0.04 (0.30)
+
+Yes
+
+3.32* (0.27)
+
+20.18* (0.07)
+20.11 (0.09)
+0.98* (0.07)
+20.31* (0.07)
+1.16* (0.39)
+
+Yes
+
+2.60* (0.35)
+
+6495
+21
+
+0.38
+
+9986
+28
+
+0.37
+
+Note: The dependent variable is the respondent’s evaluation of the governor. Only Democratic and Republican respondents are
+included; independents and leaners are omitted. Cluster-corrected standard errors in parentheses; sampling weights applied. Using state
+ﬁxed effects (not shown) rather than cluster corrections produces the same substantive pattern. †p # 0.10, *p # 0.05.
+
+poor economic conditions when evaluating their
+governors.
+
+Discussion
+
+The preceding analysis leads to three major conclu-
+sions. First, partisanship has a strong inﬂuence on how
+voters assign responsibility for policy outcomes. When
+functional responsibilities are shared among ofﬁcials
+from opposing parties, voters assign blame in a
+partisan manner; they do not assign blame objectively
+based only on each ofﬁcial’s job description. Second,
+partisanship also inﬂuences how voters perceive policy
+performance by various levels of government. When
+the president and the governor belong to opposing
+parties, voters will overestimate the policy success of
+whichever level of government that is controlled by
+their preferred party. And third, partisanship inﬂuen-
+
+ces whether voters will hold the governor accountable
+for the state economy. The effect of state economics
+on gubernatorial approval varies among partisan
+subgroups—but only when the president and the
+governor belong to different parties. This latter con-
+clusion follows logically from the ﬁrst two.
+
+For several years, researchers have struggled to
+show whether voters hold governors accountable for
+national or state-level conditions. This question
+certainly merits attention;
+if governors—the most
+prominent elected ofﬁcials after the president—are
+evaluated largely on the basis of national partisan
+trends, then we ought to seriously reconsider the
+nature and value of subnational elections. Despite the
+importance of
+this question, however, previous
+research has produced inconsistent results. The pre-
+ceding analysis suggests a reason why: the existing
+literature on gubernatorial approval has failed to
+appreciate the importance of respondent partisanship
+
+TABLE 6 Gubernatorial Approval and the State Economy (SurveyUSA)
+
+Democratic governor
+
+Republican governor
+
+Respondent party
+
+Republican
+
+Democrat
+
+Republican
+
+Democrat
+
+State unemployment
+Bush approval level
+Constant
+N
+R2 (adjusted)
+
+213.99* (4.04)
+1.70* (0.69)
+226.30 (59.63)
+
+19
+
+0.57 (0.51)
+
+24.56 (2.91)
+0.92† (0.46)
+79.97* (16.46)
+
+19
+
+0.42 (0.35)
+
+26.43* (1.92)
+0.52 (0.45)
+59.95 (36.59)
+
+28
+
+0.33 (0.28)
+
+27.40* (2.34)
+0.48 (0.75)
+70.24* (14.99)
+
+28
+
+0.30 (0.24)
+
+Note: Standard errors in parentheses. The dependent variable is the aggregate approval level among the speciﬁed group of respondents.
+†p # 0.10, *p # 0.05.
+
+
+614
+
+adam r. brown
+
+TABLE 7 Marginal Effects of State Economic Evaluations on Gubernatorial Voting
+
+All respondents (from
+
+Republican respondents
+
+Democratic respondents
+
+Carsey and Wright)
+
+Democratic governor 1986
+Republican governor 1986
+
+0.59* (0.14)
+0.66* (0.09)
+
+only
+
+0.60* (0.18)
+0.86* (0.39)
+
+only
+
+0.16 (0.19)
+0.67* (0.21)
+
+Note: Coding follows Carsey and Wright (1998), except the dependent variable is a dummy coded 1 if the respondent reported voting
+for the incumbent gubernatorial candidate. Figures shown are coefﬁcients for the marginal effect of respondent evaluations of the state
+economy from six separate logistic regressions, with standard errors in parentheses. These economic evaluations range over a four-point
+scale, with higher scores indicating better evaluations. Data source is the 1986 CBS/New York Times exit poll, obtained from ICPSR.
+Other variables not shown are the same as in Carsey and Wright (1998). *p # 0.05.
+
+in mediating the relationship between policy per-
+formance and gubernatorial approval. The ‘‘func-
+tional responsibility’’ theory that motivates much of
+the work on gubernatorial approval assumes that all
+voters will act the same, regardless of party—an
+assumption at odds with long-established ﬁndings
+in the literature on partisanship and bias.
+
+Of course, I would not go so far as to claim that
+every existing analysis would have found a signiﬁcant
+relationship between state economic conditions and
+gubernatorial approval if only it had fully accounted
+for partisanship and divided federalism; after all,
+idiosyncratic features of a particular state or year
+may temporarily reduce the salience to voters of the
+state’s economy (cf. Zaller 1992). That being said,
+scholarly inattention to partisanship and divided
+federalism may well explain some of the literature’s
+inconsistency. The prevalence of divided federalism
+has varied widely over the past 50 years, ﬂuctuating
+from a high of 74% of states to a low of 26% of states
+being governed by the president’s party. Suppose
+these year-to-year variations, a
+that, because of
+particular
+study happened to disproportionately
+sample states with divided federalism. If most re-
+spondents in those states belonged to the president’s
+party, then the analysis would be more likely to ﬁnd a
+relationship between economics and approval; if not,
+then the opposite would be true.
+
+The only way to know for sure whether such was
+actually the case would be to replicate every existing
+study. For practical reasons, I have not done so.
+Nevertheless, I derive some conﬁdence in the robust-
+ness of my ﬁndings from the diversity of data sources
+examined in this analysis. In various parts of this
+paper I have used the 1982 CBS/New York Times exit
+polls, the 1986 CBS/New York Times exit polls, the
+2006 Cooperative Congressional Election Study, and
+2006 gubernatorial approval data from SurveyUSA;
+in every case, the data produced results consistent
+with my theory. Along the way, I have replicated
+portions of two widely read studies—Stein’s (1990)
+
+and Carsey and Wright’s (1998)—and found results
+consistent with my theory.
+
+Federalism plays a central role in American
+voting behavior. Subnational elections are not held
+in a vacuum, but rather in the context of national
+political conditions. However, this analysis demon-
+strates that federalism’s role differs somewhat from
+what researchers have previously thought. Recent
+research has argued that voters hold state and federal
+ofﬁcials accountable for different sets of issues; in this
+line of
+thinking, voters recognize that state and
+federal ofﬁcials have differing policy responsibilities
+and judge them accordingly. Such an argument
+presupposes that the lines dividing federal from state
+authority are clear. Although state and federal powers
+may have been neatly divided at America’s founding,
+the divisions are now extremely blurred—especially
+in the realm of economic policy.
+
+My ﬁndings do not necessarily refute the func-
+tional responsibility argument entirely; the functional
+responsibility hypothesis may explain voter behavior
+in issue areas where responsibilities are more clear-cut,
+as implied by Malhotra and Kuo’s ﬁndings (2008). But
+at least in issue areas where responsibility is uncertain,
+such as economic policy, voters rely instead on
+partisan cues when assigning blame for policy out-
+comes. Presidential, gubernatorial, and respondent
+partisanship interact to determine how voters assess
+gubernatorial performance. When it suits their parti-
+san predispositions, voters blame their governor for
+state-level problems; when it does not, they do not.
+
+In addition, this partisan logic also affects voter
+judgments of policy outcomes. Partisan biases have
+clear, meaningful effects on respondent evaluations of
+the state’s economic health. A handful of well-
+regarded studies have used correlations between
+retrospective economic evaluations and gubernatorial
+approval to argue that voters do, in fact, hold gov-
+ernors responsible for the state’s economy (Atkeson
+and Partin 1995, 1998; Carsey and Wright 1998; Stein
+1990). But given that retrospective evaluations are
+
+
+are governors responsible for the state economy?
+
+615
+
+strongly inﬂuenced by respondent partisanship, po-
+litical scientists should hesitate to use retrospective
+economic evaluations as indicators of actual eco-
+nomic performance.

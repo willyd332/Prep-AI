@@ -1,0 +1,2618 @@
+
+I present a new method of interpreting voter preferences in settings where policy remains in effect until replaced by new
+legislation. In such settings voters consider not only the utility they receive from a given policy today, but also the utility they
+will receive from policies likely to replace that policy in the future. The model can be used to characterize both long-term
+preferences and distributions over policy outcomes in situations where policy is ongoing and voters are farsighted.
+
+“[W]e’re unprepared for the consequences of win-
+ning. Winning in court too soon could mean losing
+in the court of public opinion, in Congress and
+under the United States Constitution.” —Matt
+Coles, Director of the ACLU Lesbian and Gay
+Rights Project, quoted in The New York Times on
+November 12, 2004.1
+
+F ollowing the 2004 elections in which 11 states
+
+passed constitutional amendments banning gay
+marriage, gay rights groups began a concerted pub-
+lic effort to change their political strategy. The groups
+decided to temporarily retreat from what they had pre-
+viously claimed to be their most important goal: win-
+ning the right for same-sex marriages. The reason for this
+move was simple. The groups realized that a challenge to
+such amendments in federal court was a risky proposi-
+tion, regardless of whether the challenge was successful
+or not. An unfavorable court decision would establish a
+legal precedent that could be invoked in future cases. A
+favorable court decision could easily accelerate public and
+legislative support for a federal constitutional amendment
+banning same-sex marriage outright.
+
+Political choice in the short term often involves long-
+term considerations because, as the above story demon-
+strates, decisions made today can greatly affect the types
+of decisions that are feasible tomorrow. Given the impor-
+tance that individuals place on long-term outcomes, an
+
+essential step in understanding strategic voting behavior is
+understanding the future consequences of policy choice.
+These consequences are particularly relevant when poli-
+cies remain in effect for an indefinite period of time, or
+are “continuing.” A continuing program, as opposed to
+a once-and-for-all program, is a policy that continues in
+effect until it is changed by new legislation.2 When such
+a policy is enacted we can think of it as producing a path-
+dependent stream of future legislation, with the status quo
+at any given time being the extant legislation at that time.
+Because of the long-term nature of these programs, they
+are often of particular interest to legislators, activists, and
+voters. Such programs include entitlements, social pol-
+icy, and redistributive programs, with specific examples
+being minimum wage laws, social security benefits, the
+regulation of public health concerns such as air quality
+and automobile safety, and eligibility requirements for
+social welfare programs.
+
+Decisions over continuing programs frequently af-
+fect the future choices that are available to a group; for
+example, it can be politically difficult to reinstate a tax
+once it has been repealed, to lower levels of entitlement
+spending, or to revoke a law concerning public safety.
+When legislators evaluate such policies they do so with
+an eye toward what the policy is likely to produce over
+time. There is therefore no reason to expect that legisla-
+tive bargaining over a continuing program will be similar
+to legislative bargaining over a once-and-for-all program.
+
+
+While the behavior of a legislator may depend largely on
+his immediate preferences, it may also depend on how
+he sees today’s choice as affecting future decisions. This
+tension between short- and long-term interests is my pri-
+mary focus.
+
+In this article I develop a model of bargaining over
+continuing programs in which individuals rank policies
+not only on the basis of the utility they yield today, but
+also with respect to the types of alternatives they will likely
+lead to in the future. The model differs from much of the
+bargaining literature in that the bargaining process does
+not end once a policy has been agreed upon, as in Baron
+and Ferejohn (1989). Instead, the chosen policy becomes
+the reversion point of the next round of bargaining and
+remains in effect until it is replaced by a new alternative.3
+The model is used to both characterize voting behavior
+when individuals are farsighted and to characterize the
+types of policies that will emerge when programs are
+continuing.
+
+The theory developed here captures several impor-
+tant features of politics that may not be captured in a
+one-shot model of bargaining. First, farsighted voters
+are not indifferent between different policies that pro-
+vide them with the same level of utility. This is because
+the space of alternatives that defeats a given policy, and
+that a given policy defeats, will differ substantively across
+policies. This model demonstrates that in dynamic envi-
+ronments, the space of alternatives that can and cannot
+defeat a policy may have as much impact on individual
+decision making as the substance of the policy itself. And
+second, farsighted voters will take the preferences of oth-
+ers into account when voting, not because of a behavioral
+assumption such as altruism or inequality aversion, but
+because the preferences of others will matter when passing
+future legislation. This implies that changing the prefer-
+ences of a single voter will change the strategic behavior of
+every other voter in a predictable way. While both of these
+features hold true in any dynamic game, the goal of this
+article is to not only characterize individual behavior on
+an equilibrium path, but also to characterize farsighted
+individual preferences in general. Most importantly, this
+model calculates a general induced utility function for each
+player that captures his evaluation of every policy in terms
+of what it is likely to produce over time.
+
+The article begins with several general existence re-
+sults. I then apply the model to a number of standard
+legislative settings, including a one-dimensional spatial
+model, a divide-the-dollar game, and a two-dimensional
+
+3Baron (1996), Kalandrakis (2004), and Riboni (2008), among oth-
+ers, have also examined repeated bargaining games with endoge-
+nous reversion points. This literature will be discussed the next
+section.
+
+37
+
+spatial model in which players have either circular or
+elliptical preferences. I find that the theory is capable
+of making sharp predictions in each of these legislative
+settings, with the predicted outcomes frequently corre-
+sponding to policies that divide benefits fairly between
+like-minded individuals. Thus, while the model is in-
+tended specifically to analyze individual vote choice, it
+could also be interpreted as a model of endogenous party,
+or coalition, formation. The coalitions that tend to emerge
+consist of those individuals whose preferences are most
+similar, either in terms of spatial distance or intensity of
+preference. Furthermore, farsighted individuals tend to
+favor policies that yield equitable distributions of payoffs,
+and frequently vote for certain normatively “fair” alter-
+natives over their own ideal points. Relatedly, farsighted
+voters may shy away from implementing an inefficient
+Condorcet winner in favor of implementing a more effi-
+cient cycle of alternatives over time; thus farsighted voters
+may willingly concede utility in the short term for more
+beneficial policy outcomes later on.
+
+The article proceeds as follows: The first section de-
+scribes the notation used and presents the model. This
+section also discusses related work and presents the no-
+tion of a dynamically stable voting equilibrium, the equi-
+librium concept used in the analysis of the model. The
+second section presents several results about equilibrium
+existence that constitute the main theoretical contribu-
+tion of the article. When the policy space is finite, I show
+that there always exists an equilibrium. When the policy
+space is infinite then there exists an equilibrium under cer-
+tain conditions, and when the number of players is large
+the equilibrium is unique. Furthermore, I demonstrate
+that equilibrium behavior in this model is consistent with
+Bayesian Markov-perfect equilibrium behavior. This sec-
+tion also examines two analytic examples of the model in
+the setting of a finite policy space and shows that Con-
+dorcet winners may not arise as policy outcomes when
+voters are farsighted. The third section considers applica-
+tions of the model to spatial voting games and presents
+several numerical results. The final section concludes.
+
+The Model
+
+There is a collection of voters N = {1, 2 , . . . , n} and a
+compact set X ⊂ Rm of alternatives, or policies. X can
+be either finite or infinite. For each voter i ∈ N, pref-
+erences are represented by a real-valued utility function,
+ui : X → [u
+∈ R. When the set of poli-
+¯
+cies is infinite I also assume that these utility functions
+
+, ¯u], for some ¯u, u
+¯
+
+38
+
+are differentiable and that their derivatives are uniformly
+bounded by some constant U.
+A subset C ⊆ N is called a coalition of voters. Coali-
+tions that are large enough to enact a policy are called
+decisive, or winning. The collection of winning coalitions
+is W. It is simply assumed that this collection W is mono-
+tonic and proper. Monotonicity implies that if C ∈ W and
+(cid:7) ∈ W , or that adding people to a deci-
+C ⊂ C
+sive coalition yields another decisive coalition. Properness
+implies that if C ∈ W , then N\C (cid:8)∈ W, or that any two
+decisive coalitions must have at least one individual in
+common.
+
+, then C
+
+(cid:7)
+
+Path of Play and Related Literature
+
+The legislative process is modeled as a sequence of sessions
+in which votes on policy occur. In each round the status
+quo is determined by the bargaining outcome of the pre-
+vious round. A policy to be pitted against the status quo
+arises exogenously in each round. This policy is drawn
+from a probability density Q. A vote then occurs between
+this policy and the status quo. Every voter receives a payoff
+from the winning policy and this policy then becomes the
+status quo of the next round of bargaining. This process
+is pictured in Figure 1.
+
+The probabilistic and exogenous nature of the pro-
+posal process distinguishes this model from Baron (1996),
+Baron and Herron (2003), Kalandrakis (2004), Duggan
+and Kalandrakis (2007), Baron, Diermeier, and Fong
+(2007), and Riboni (2008) and warrants a short discus-
+sion. Baron, Baron and Herron, Kalandrakis, and Kalan-
+drakis and Duggan analyze repeated bargaining games
+with endogenous reversion points. In these papers a player
+is selected at random to make a proposal in each round.
+The proposal is pitted against the status quo, with the
+winning alternative becoming the status quo in the next
+round of bargaining. Baron looks at the case of a unidi-
+mensional policy space and finds that outcomes converge
+to the ideal point of the median voter. Baron and Herron
+consider a two-dimensional policy space, three players,
+and a finite horizon, and numerically compute equilib-
+ria. Kalandrakis examines a three-player divide-the-dollar
+game and finds that a Markov perfect equilibrium of the
+game is characterized by a situation where the proposer
+in every round proposes the entire dollar for himself,
+and this allocation is approved by a majority of players.
+Duggan and Kalandrakis extend the model to multidi-
+mensional space and a very general preference and voting
+environment. In addition to proving the existence of pure
+strategy stationary Markov perfect equilibria, they pro-
+vide an algorithm for computing equilibria numerically.
+
+ELIZABETH MAGGIE PENN
+
+FIGURE 1 Path of Play
+
+Status quo
+
+x
+
+Policy y drawn
+from density Q
+
+Vote between 
+
+x and y
+
+y wins
+
+Status quo
+
+y
+
+x wins
+
+Status quo
+
+x
+
+Policy z drawn
+from density Q
+
+Policy z drawn
+from density Q
+
+Vote between
+
+x and z
+
+Vote between 
+
+y and z
+
+.
+.
+.
+
+.
+.
+.
+
+Riboni considers a similar model in which policy changes
+are proposed by a strategic agenda setter (who is not a
+member of the voting body), and then voted upon by a
+committee.
+
+In the context of political economy, this article is re-
+lated at a more general level to recent articles by Battaglini
+and Coate (2007, 2008) that examine the dynamics of tax-
+ation and public spending. In these articles, policymaking
+periods are linked by endogenous levels of public goods
+and public debt, respectively. Krusell and R´ıos-Rull (1996)
+also study the connection between current and future
+policies in a model of economic growth and stagnation.
+The equilibrium concept they develop is related to the
+concept utilized in this article, in that voters forecast the
+effects of the present political climate on the future. Agents
+in their model vote via majority rule on the regulation of
+new production technologies and may decide whether or
+not to accumulate skill in a given technology. Another
+recent line of research, including papers by Cho (2008),
+Baron, Diermeier, and Fong (2007), and Fong (2006),
+has built upon Baron and Diermeier’s (2001) model of
+parliamentary systems under proportional representa-
+tion. While differing in various institutional specifics such
+as the role of elections, issue dimensionality, formateur
+
+FARSIGHTED VOTING
+
+selection, and number of policymaking rounds, these
+models consider the incentives for political coalitions to
+form and implement policy when these choices affect
+subsequent government formation cycles.
+
+All of these papers differ from my article in an im-
+portant respect. While each of these papers is concerned
+primarily with predicting equilibrium policy outcomes
+and voter behavior on the path of play, the goal of this
+article is to model voter preferences over all alternatives
+when voters evaluate policies in terms of what they are
+likely to produce over time. By separating voting strate-
+gies from the policy proposal process, results about far-
+sighted preferences and behavior are easier to interpret.
+For example, in Penn (2003) I endogenize the proposal
+process in this model by allowing randomly drawn play-
+ers to make proposals themselves. The numerical results I
+find are similar to those found by Kalandrakis (2004) and
+suggest that Kalandrakis’s result that a legislative dictator
+emerges with certainty in every round is likely an effect
+of the particular endogenous proposal process assumed.4
+The assumption of an exogenous and probabilistic
+process by which future proposals are generated reflects
+the notion that legislators are not certain of the policy pro-
+posals that will be brought to the floor in the future, but
+are aware of the current political climate and have priors
+over the distribution of future proposals. While “endoge-
+nous” is frequently interpreted as being more realistic
+than “exogenous” in any game-theoretic model, the as-
+sumption of an exogenous agenda here makes the model
+easier to interpret, easier to apply to different situations,
+and, I argue, more realistic. This is because an agenda
+in this setting will depend on a number of complex fac-
+tors (recognition rules, special interest, and constituency
+pressures; the ordering of the legislative calendar; party
+control; etc.) that are beyond the scope of this model. For
+example, in game-theoretic models it is generally assumed
+that legislators are randomly recognized to propose alter-
+natives to the floor via a particular recognition rule. This
+assumption yields a very specific kind of strategic agenda-
+setting process that is separate from the goal of this article,
+which is simply to model voter preferences in an environ-
+ment where policies are replaced by new policies over
+time.
+
+Roberts (2007), Dougherty and Edward (2008), and
+Compte and Jehiel (2008) study similar bargaining prob-
+lems with randomly generated offers. Roberts considers
+
+4In different work, Kalandrakis (2006) examines the importance
+of proposal rights in determining political power. He obtains the
+interesting result that any distribution of power can be obtained
+by simply manipulating proposal rights in a particular bargain-
+ing environment. The same is not true when manipulating other
+institutional features of the bargaining game, such as voting rights.
+
+39
+
+a setting where policymaking is continuing, and every
+alternative is equally likely to be brought to the floor.
+Dougherty and Edward compare the ability of majority
+and unanimity rules to attain Pareto efficient outcomes
+when proposals may be generated at random and find
+that majority rule dominates unanimity rule in this re-
+gard. Compte and Jehiel assume the bargaining process
+ends when a certain number of players accept the random
+offer. They examine the effect of patience, the number of
+players, and the majority requirement and find that as the
+majority requirement increases more efficient outcomes
+are generated, but that it also takes longer to reach agree-
+ment. They motivate their random proposal process with
+the argument that it is rare for any individual or group to
+have full control over an agenda-setting process, and that
+even if a person did have full control over proposals, it
+would be difficult for him to perfectly target a collection of
+specific payoffs for the other players. They also find that
+simplifying the proposal process in such a way enables
+them to better analyze many empirical regularities that
+have not been supported by previous bargaining prob-
+lems; for example, the fact that agreement is frequently
+more difficult to obtain when unanimous consent is
+required.
+
+Dynamically Stable Voting Equilibria
+
+This section presents the model of farsighted voter prefer-
+ences. Utility function ui(x) represents Player i’s one-shot
+payoff from policy x when x is enacted today. However,
+if Player i is farsighted then he not only cares about his
+payoff from having x enacted today, but also his future
+payoffs from the policies that will ultimately replace x.
+Let Player i’s value function be denoted vi , where
+vi : X → R. This function represents the discounted sum
+of utility Player i can expect to receive from having policy
+x enacted today, given that a stream of policies will be en-
+acted after x. Let v = {vi}i∈N be the collection of all voter
+value functions, with V n being the space of all value func-
+tions (so that v ∈ V n). In equilibrium each voter will as-
+sign a “true” long-term value to every policy. This means
+that players will vote based on their equilibrium value
+functions and by voting this way they ultimately generate
+those same functions.
+
+In equilibrium, value functions capture a consistency
+between beliefs and behavior; when a player behaves ac-
+cording to such a function, the value he assigns to a pol-
+icy equals the true future expected value of that policy.
+When this holds for all players, then the vote strategies of
+players generate value functions that generate those same
+vote strategies. Thus, beliefs and behavior are entirely
+
+consistent with each other. The following equilibrium
+concept captures this idea.
+
+Definition: A dynamically stable voting equilibrium is a
+collection of value functions, v∗ = {v∗
+}i∈N , such that for
+all i ∈ N and x ∈ X,
+
+i
+
+(cid:2)
+
+(cid:3)
+
+i (x) = ui (x) + ␦
+v∗
+
+y∈X
+i (x)( p(v∗
+
++ v∗
+
+v∗
+i (y) p(v∗
+(y), v∗
+
+(x)))
+
+(x), v∗
+(cid:4)
+
+Q(y).
+
+(y))
+
+The case of an infinite X is defined analogously.5
+
+The function ui(x) equals the utility Player i receives
+from alternative x in one period. The probability that pol-
+icy y will defeat status quo x is denoted p(v(x), v(y)). This
+function is simply assumed to be the probability that a
+winning coalition votes for y over x, given that every voter
+knows that policy selection will continue into the future.
+Thus voting decisions are made based on voters’ value
+functions and not their utility functions (i.e., voters are
+farsighted). The specific functional form of p(v(x), v(y))
+can be found in Appendix A; it is simply the probability
+of victory of y over x.
+
+Q is the probability mass from which alternatives y to
+be pitted against the status quo are drawn. As discussed
+earlier, Q represents the fixed beliefs that voters have over
+the types of alternatives that will be brought to the floor
+in the future. These beliefs could be uniform over all al-
+ternatives (uninformative) or could be generated by fixed
+external pressures from political parties, special interests,
+constituencies, or simply the current political climate.
+While Q is assumed to be independent of the current sta-
+tus quo x, a similar model could be constructed where
+Q is conditioned on x. This construction would not dra-
+matically change the analytic results of the model, but is
+omitted for ease of exposition.6 When the set X is infinite,
+Q is instead a density. In this case, Q is assumed to have
+full support, and to be differentiable in y.
+␦ ∈ [0, 1) is a discount factor that represents players’
+time preferences. When ␦ is high, voters place greater rel-
+ative weight on the future. For notational simplicity ␦ is
+assumed to be common for all players, but this assump-
+tion does not affect any of the analytic results.
+
+One feature of this model that differentiates it from
+an endogenous proposal model is that the probability of
+victory of y over x, or p(v(x), v(y)), is averaged over all
+decisive coalitions. Alternatively, when proposals are en-
+dogenous the proposer does two things: he chooses an
+
+5As the value function depends on the distribution from which
+i (x | Q).
+proposals are drawn, or Q, v
+6It would require a stronger assumption than Assumption 1 in
+order to prove existence when X is infinite (Proposition 2).
+
+∗
+i (x) could also be written v
+
+∗
+
+ELIZABETH MAGGIE PENN
+
+alternative to propose, and he identifies a particular de-
+cisive coalition to target his proposal to. Therefore, when
+proposals are endogenous, policy outcomes will typically
+change at every round of voting unless the status quo is the
+proposer’s ideal point. However, in this model, because
+winning coalitions are no longer uniquely determined
+but instead are averaged over, a consequence is that uni-
+versalistic, or close to universalistic, majorities can arise
+given particular policy pairings. Thus, policy will remain
+at more desirable status quos for longer, and undesirable
+policies will be replaced quickly.
+
+To summarize this section, the above model charac-
+terizes long-term individual preferences in a setting where
+policies are repeatedly being challenged and replaced by
+new alternatives. In a given round a transition from status
+quo x to new policy y is dependent upon two factors. First,
+policy y must be chosen to be pitted against status quo x
+from density Q. Second, voters must choose policy y over
+status quo x, and the probability that y defeats x when in-
+finitely more rounds remain is denoted p(v(x), v(y)). The
+function vi (x) represents i’s discounted expected sum of
+utility when x is enacted today, given that infinitely more
+rounds of policy selection will occur. This equals ui(x),
+or i’s utility from x today, plus the discounted expected
+value of what x will ultimately lead to in the future.
+
+Analytic Results and Examples
+
+In the sections that follow, I will provide examples of
+dynamically stable voting equilibria in specific settings.
+The goal of this section is to provide more general re-
+sults about the types of environments in which we can
+expect dynamically stable voting equilibria to exist and to
+be unique. Recall that an equilibrium in this setting is a
+collection of value functions such that, when individuals
+vote according to these functions, individual valuations
+of policies equal the true future expected values of those
+policies. Therefore, we are looking for fixed points in a
+mapping from one value function into another. Mathe-
+matically, this is different from a more standard game-
+theoretic setup in which we look for fixed points in action
+profiles. The difference stems from the fact that while
+value functions (which are necessarily cardinal) will yield
+action profiles, action profiles do not provide us with
+enough information to give us back cardinal valuations.
+Therefore, stronger conditions are required in order to
+obtain equilibrium existence in this setup than in a stan-
+dard game-theoretic setup.7
+
+7In particular, the difficulties with equilibrium existence here are
+mathematically similar to difficulties in obtaining existence in
+games with continuous action spaces.
+
+FARSIGHTED VOTING
+
+Propositions 1, 2, and 3 all focus on the problem
+of equilibrium existence. Although the voting behavior
+of players is purposefully left unspecified in this model,
+individual behavior is implicit in the definition of the
+function p(v(x), v(y)), or the probability of victory of
+y over x. While p is defined formally in Appendix A, let
+the probability that individual i (with value function vi )
+votes for y over x be denoted pi(vi (x), vi (y)). The three
+existence results all require that this probability be con-
+tinuous in vi for all individuals i, or that individuals vote
+probabilistically. Probabilistic voting is defined formally
+in Appendix A. However, while probabilistic voting is suf-
+ficient for equilibrium existence in many cases, it is not
+necessary in order to find equilibria of the model. The
+following sections provide several examples of equilibria
+in situations where individuals vote deterministically.
+
+Many authors have invoked the assumption of prob-
+abilistic behavior on the part of voters (see Banks and
+Duggan 2004; Coughlin 1992; McKelvey and Patty 2006;
+and Schofield 2004), with the implication being that mod-
+els of behavior are incapable of perfectly predicting vote
+choice, and that this reality should be incorporated into
+the calculations of voters. This model is consistent with
+the more game-theoretic formulation of probabilistic vot-
+ing adopted by McKelvey and Patty (2006). As in their
+setup, and opposed to some more classic models of prob-
+abilistic voting, the expected payoff of casting a vote is
+represented correctly for each voter.8 In other words, in-
+dividuals vote with the knowledge that other voters are
+also behaving probabilistically. As in other recent work
+on the topic, the assumption of probabilistic voting in
+this model is consistent with pure strategy equilibrium
+behavior in a Bayesian framework in which individuals
+receive privately observed payoff shocks for each possible
+action or vote. This formulation of probabilistic voting,
+and in particular, the effect of these random payoff dis-
+turbances on individual vote functions pi, is presented in
+Appendix A.
+
+The three existence results require various conditions
+on individual vote functions pi.9 Proposition 1 simply
+proves that when the alternative space X is finite and
+individuals vote probabilistically, an equilibrium exists.
+Proposition 3 proves that when individuals vote proba-
+bilistically, then a unique equilibrium will exist when the
+number of players is large enough, regardless of whether
+X is finite or infinite. Proposition 2 proves that an equilib-
+
+8Relatedly, McKelvey and Patty also require the size of the electorate
+to be “large enough” in order to characterize their equilibrium.
+
+9Alternatively, as discussed in Appendix A, these assumptions can
+be thought of as requirements on the distribution of individuals’
+privately observed random payoff disturbances.
+
+41
+
+rium will exist when X is infinite and there are any number
+of players, but requires that the derivative of p be bounded
+by a particular constant. This implies that individual
+behavior is sufficiently probabilistic. In Appendix A
+this constant is defined both generally (Assumption 1)
+and more specifically for the case of a logit agent quantal
+response equilibrium. All proofs of the propositions can
+be found in Appendix B.
+
+Proposition 1. If X is finite, then there exists a dy-
+namically stable voting equilibrium when individuals vote
+probabilistically.
+
+Proposition 2. If X is infinite, then there exists a dynami-
+cally stable voting equilibrium when individuals vote “suf-
+ficiently probabilistically,” or individual behavior is not too
+responsive to payoffs.
+
+Proposition 3. If the number of voters is “large enough”
+then there always exists a unique dynamically stable equi-
+librium provided that individuals vote probabilistically, re-
+gardless of whether X is finite or infinite.
+
+To understand why additional requirements on tran-
+sition probabilities p are needed to generally prove exis-
+tence when X is infinite, note that the set of all functions
+over a finite alternative space is a finite-dimensional vec-
+tor space, while the set of all functions over an infinite and
+compact subset of Rm is a function space. Compactness
+of the space of value functions is generally needed in or-
+der to find a fixed point. While any closed and bounded
+subset of a finite-dimensional vector space is compact,
+closed and bounded sets of functions are rarely compact.
+Proposition 2 is proved by showing that the set of value
+functions is equicontinuous, and thus compact, when a
+certain restriction (Assumption 1 described above) on the
+derivative of transition probability p holds.
+
+Proposition 3 proves existence differently, by showing
+that when the total number of players is sufficiently large
+we can construct an iterative definition of a dynamically
+stable voting equilibrium that is a contraction mapping.
+This definition (Equation 2 in Appendix B) is also used
+to perform the numerical estimations that follow in the
+next section and is discussed in greater detail in that sec-
+tion. Furthermore, this definition can be easily utilized
+to calculate farsighted evaluations of policy when only a
+finite number of rounds of policymaking will occur. The
+extension of this model to the setting of a finite number
+of rounds is discussed in Appendix B.
+
+Last, it is important to note that under different spec-
+ifications of the functions pi a dynamically stable vot-
+ing equilibrium is equivalent to other commonly used
+
+42
+
+equilibrium concepts. For the final proposition and corol-
+lary of the article I construct a game in which equilibrium
+behavior is consistent with behavior generated by dy-
+namically stable voting equilibria. In particular, I show
+that when individuals vote probabilistically, behavior in
+a dynamically stable voting equilibrium is equivalent to
+pure strategy Bayesian Markov-perfect Nash equilibrium
+behavior in the constructed game (Proposition 4). As a
+corollary it follows that when individuals vote determin-
+istically, so that pi(vi (x), vi (y)) = 1 if vi (y) ≥ vi (x) and
+zero otherwise, then at a dynamically stable voting equi-
+librium the collection of functions pi constitute a Markov-
+perfect equilibrium. In both cases, the v∗
+vector represents
+the expected utility functions of the players, and strate-
+gies as specified by the functions pi are consistent with
+the maximization of these expected utility functions. The
+proofs and the construction of the game are relegated to
+Appendix B.
+
+Proposition 4. If individuals vote probabilistically, then at
+a dynamically stable voting equilibrium, v∗
+, the collection of
+functions pi are consistent with behavior in a pure strategy
+Bayesian Markov-perfect Nash equilibrium of a game, .
+
+A One-Dimensional Example: The Federal
+
+Marriage Amendment and Gay Rights
+
+When the policy space is finite and small it is not diffi-
+cult to solve for equilibria analytically. In this subsection
+and the next I will present simple analytic examples of
+dynamically stable voting equilibria. This first example
+depicts a one-dimensional spatial model; the second de-
+picts a setting in which there is a majority preference cycle
+over a subset of the alternative space. In both examples
+I assume that discount factor ␦ = .9 and that voting is
+deterministic, with
+
+pi (vi t(x), vi t(y)) =
+
+⎧⎪⎪⎨
+⎪⎪⎩
+
+if vi t(y) > vi t(x)
+if vi t(y) < vi t(x)
+
+otherwise.
+
+1
+0
+1
+2
+
+To motivate this first example, consider the story pre-
+sented in the introduction about the political strategies
+of gay rights groups after the 2004 elections. Suppose
+that there are three political actors in the model: a gay
+rights activist (R), a defense-of-marriage activist (D), and
+a neutral voter (N). Also, suppose that there are three
+possible political outcomes: a court-mandated overturn
+of state constitutional amendments banning gay marriage
+(“court mandate,” for short), legalization of civil unions
+and benefits for same-sex partners (“civil unions”), and a
+
+ELIZABETH MAGGIE PENN
+
+FIGURE 2 A One-Dimensional Example
+
+Gay rights activist (R)
+
+Neutral voter (N)
+
+Defense-of-marriage activist (D)
+
+Court mandate Civil unions
+
+Marriage amendment
+
+federal constitutional amendment banning gay marriage
+(“marriage amendment”).
+
+Last, assume that the “marriage amendment” out-
+come is currently being strongly forwarded by special
+interests, and is three times more likely to arise as a policy
+proposal than the other two policy alternatives. Thus,
+Q(Marriage amendment) = 3
+Q(Court mandate) = 1
+5 .
+
+5 , and Q(Civil unions) =
+
+Figure 2 depicts the hypothetical spatial location of
+the ideal points of the three players and the locations of
+the three policies.
+
+This figure generates Tables 1 and 2, which show
+the utility functions of the three players and the sum of
+expected utility each policy yields in the long term, at a
+dynamically stable voting equilibrium.
+
+Table 2 summarizes the above information by de-
+picting individuals’ rankings over the alternatives when
+individuals are both shortsighted and farsighted. If Player
+i strictly prefers policy x to policy y, it is written x (cid:11) y. If
+Player i is indifferent between the two, it is written x ∼ y.
+As is consistent with a traditional spatial model, the
+neutral voter is always indifferent between legalized civil
+unions and a constitutional marriage amendment, and
+strictly prefers both of these policies to a court mandate
+legalizing gay marriage. However, the gay rights activist,
+with ideal point “court mandate,” will strictly prefer to
+implement “civil unions” rather than his own ideal point
+when he is farsighted. This is because when “marriage
+amendment” is more politically salient than the other
+two policies (i.e., is more likely to be brought to the floor
+as a policy proposal) then the policy that makes the gay
+rights activist best off over time is not his ideal point, but
+the policy closest to his ideal point that can defeat a con-
+stitutional amendment banning gay marriage. Thus, it is
+in the activist’s best interest to concede some utility in the
+current round in order to prevent his least favorite policy
+from being quickly implemented. Finally, the defense-
+of-marriage activist strictly prefers “court mandate” to
+“civil unions” when he is farsighted, even though “civil
+unions” is closer to his ideal point. Loosely speaking, this
+is because at “court mandate” there is a 60% chance of
+transitioning to “marriage amendment,” the defense-of-
+marriage activist’s favorite policy, while at “civil unions”
+this chance drops to 30%.
+
+The purpose of this example is to demonstrate sev-
+eral key features of this model. First, all three players
+
+FARSIGHTED VOTING
+
+TABLE 1 Individuals’ Payoffs
+
+One-Shot Utility
+
+(cid:9)
+
+(cid:10)
+
+ui
+
+Civil
+unions
+
+(cid:10)
+
+(cid:9)
+
+Court
+
+mandate
+
+ui
+
+1
+1
+2
+0
+
+i
+
+R
+N
+D
+
+3
+4
+3
+4
+1
+4
+
+Farsighted (Equilibrium) Valuations
+
+43
+
+(cid:10)
+
+(cid:9)
+
+vi
+
+Marriage
+amend.
+3.478
+7.5
+6.522
+
+(cid:10)
+
+(cid:9)
+
+(cid:10)
+
+(cid:9)
+
+Marriage
+amend.
+
+ui
+
+1
+4
+3
+4
+3
+4
+
+vi
+
+i
+
+R
+N
+D
+
+Court
+
+mandate
+4.512
+7.195
+5.488
+
+(cid:10)
+
+(cid:9)
+
+vi
+
+Civil
+unions
+4.565
+7.5
+5.435
+
+TABLE 2 Individuals’ Rankings of Alternatives
+
+i
+
+R
+
+N
+
+D
+
+(cid:11)
+
+Court
+
+One-Shot Rankings
+(cid:11)
+mandate
+∼
+Civil
+unions
+Marriage
+
+Civil
+unions
+Marriage
+amendment
+(cid:11)
+Civil
+unions
+
+amendment
+
+(cid:11)
+(cid:11)
+
+Marriage
+
+amendment
+
+Court
+
+mandate
+Court
+
+mandate
+
+Farsighted Rankings
+
+Civil
+unions
+Civil
+unions
+
+(cid:11)
+∼
+Marriage
+
+amendment
+
+Court
+
+mandate
+
+(cid:11)
+Marriage
+amendment
+(cid:11)
+Court
+
+mandate
+
+(cid:11)
+(cid:11)
+
+Marriage
+
+amendment
+Court
+
+mandate
+Civil
+unions
+
+care both about the policy chosen today and about the
+types of policies that will replace it in the future. Second,
+farsightedness requires taking into account institutional
+particularities at any given time. In this example this is
+reflected in the exogenous Q term, which captures the
+fact that there is currently considerable pressure from in-
+terest groups to enact gay marriage bans at the federal
+level. And third, farsightedness also requires taking into
+account the preferences of other political actors. In the
+absence of a defense-of-marriage activist, the gay rights
+activist would have pursued a different political strategy.
+While this example is obviously highly stylized, it provides
+a clear picture of how this model works and demonstrates
+that the predictions that the model yields are often quite
+intuitive.
+
+A final point to note is that the “farsighted prefer-
+ences” conceived of in this model are only farsighted with
+respect to the current political climate, or Q term. In this
+sense, the model predicts short-term behavior when indi-
+viduals care about policy in the long run. In this example
+a strategic gay rights activist will not challenge state-level
+bans of gay marriage in the federal courts given the current
+
+political climate. Clearly the political climate will change
+over time, and these changes will necessarily change the
+predictions of the model.
+
+A Condorcet Winner-Turned-Loser
+
+In this next example there are three voters and four al-
+ternatives, X = {c, x, y, z}, with one alternative, c, being
+a Condorcet winner. The other three alternatives form
+a majority preference cycle, with x (cid:11) y, y (cid:11) z, and z
+(cid:11) x. The Condorcet winner gives each voter a one-shot
+payoff of 2, while the expected value of an alternative
+in the majority preference cycle is 3. Thus, while every
+player is better off cycling through the alternatives x, y,
+z than remaining at Condorcet winner c, c always gives
+two players strictly greater utility in the short term than
+they would receive at any other policy. Table 3 presents
+players’ utility functions and their farsighted valuations
+when Q is uniform over all alternatives (i.e., when every
+alternative is equally likely to be brought to the floor for a
+vote).
+
+TABLE 3 Individuals’ Payoffs
+
+One-Shot Utility
+
+Farsighted (Equilibrium) Valuations
+
+i
+
+1
+2
+3
+
+ui(c)
+
+ui(x)
+
+ui(y)
+
+ui(z)
+
+2
+2
+2
+
+8
+1
+0
+
+1
+0
+8
+
+0
+8
+1
+
+i
+
+1
+2
+3
+
+vi (c)
+
+28.7097
+28.7097
+28.7097
+
+vi (x)
+
+39.0463
+30.109
+20.8447
+
+vi (y)
+
+30.109
+20.8447
+39.0463
+
+vi (z)
+
+20.8447
+39.0463
+30.109
+
+44
+
+TABLE 4 Individuals’ Rankings of Alternatives
+
+i
+
+1
+2
+3
+
+One-Shot Rankings
+
+x (cid:11) c (cid:11) y (cid:11) z
+z (cid:11) c (cid:11) x (cid:11) y
+y (cid:11) c (cid:11) z (cid:11) x
+
+Farsighted Rankings
+
+x (cid:11) y (cid:11) c (cid:11) z
+z (cid:11) x (cid:11) c (cid:11) y
+y (cid:11) z (cid:11) c (cid:11) x
+
+Table 4 depicts individuals’ rankings over the alter-
+natives when individuals are both shortsighted and far-
+sighted. As in the previous example, a preference reversal
+occurs. This reversal changes Condorcet winner c into a
+Condorcet loser in farsighted valuations, or a policy that
+is majority-defeated by every other policy.10
+
+4 (2 + 8 + 1 + 0) = 11
+
+The logic behind why the preference reversal occurs
+takes two steps to reveal. First note that in the short run
+Player 1 prefers c to y, but in the long run this preference is
+reversed. However, c and y both lead to similar payoffs in
+the subsequent round for Player 1: since every alternative
+beats c when voters are farsighted, the expected payoff to
+Player 1 in a round following the implementation of c is
+1
+4 . Player 1’s expected payoff after y
+is implemented is the same: y is only defeated by x, and
+so Player 1’s expected payoff in the round following im-
+plementation of y is 1
+4 . However, c and y
+lead to different expected payoffs for Player 1 two rounds
+out. While y and c both lead to an expected payoff of 11
+4
+in a subsequent round, y leads to an expected payoff of 57
+16
+two rounds out, while c leads to an expected payoff of 47
+16
+two rounds out.11 Thus, while equilibrium evaluations in
+this framework capture expected payoffs for an infinite
+stream of future policies, the intuition behind why pref-
+erence reversals occur can be seen in settings with a finite
+(and even small) number of periods.
+
+4 (1) = 11
+
+4 (8) + 3
+
+This example demonstrates that when voters are far-
+sighted, outcomes will not necessarily coincide with many
+
+10Roberts (2007) provides an interesting refinement of Condorcet
+winners to intertemporal settings that captures those policies that
+can also defeat cycles of alternatives. This example works pre-
+cisely because the Condorcet winner here does not satisfy Roberts’s
+stronger criterion of being a “generalized Condorcet winner.”
+Hortala-Vallve (2006) examines logrolling in a model similar to
+Roberts’s, but in which a single policy is implemented after re-
+peated negotiations.
+11To see the logic of this, let y be implemented today, at t = 0.
+Tomorrow at t = 1 y will lead to either x (with probability 1
+4 ) or
+y (with probability 3
+4 ), for an expected payoff to Player 1 of 11
+4 . At
+t = 2 there is a one-fourth chance we will have been at x at t = 1,
+which will lead to x with probability 3
+4 , for
+an expected payoff of 24
+4 chance we will have
+been at y in the previous round, for an expected payoff at t = 2 of
+4 . Thus the expected payoff at t = 2 when y was implemented at
+t = 0 is 1
+
+4 and z with probability 1
+
+4 . Similarly, there is a 3
+
+11
+
+4 ) + 3
+4 ( 24
+
+4 ) = 57
+4 ( 11
+16 .
+
+ELIZABETH MAGGIE PENN
+
+commonly known tournament solution concepts includ-
+ing the uncovered set, minimal covering set, tournament
+equilibrium set, Banks set, largest consistent set, and von
+Neumann-Morgenstern stable set, as all of these sets re-
+duce to the core, if one exists.12 In the spatial settings
+considered in the following section, outcomes do ap-
+pear to coincide with elements of the von Neumann-
+Morgenstern stable set. However, this observation cannot
+be extended to a general preference environment. The
+relevant issue is that cardinality of preferences matters in
+this setting, whereas tournament solution concepts only
+require ordinal preferences. This same issue distinguishes
+this model from sophisticated voting (the standard defini-
+tion of which is presented in Shepsle and Weingast 1984),
+which is defined solely with respect to ordinal prefer-
+ences. Sophisticated voting will always yield a Condorcet
+winner as the unique voting outcome, if a Condorcet
+winner exists. Here a Condorcet winner exists, but it is
+chosen with probability zero as an equilibrium policy
+outcome.
+
+More generally, this example of a Condorcet winner-
+turned-loser provides a good basis of comparison be-
+tween this model and the standard sophisticated voting
+setup that is frequently used to analyze forward-looking
+behavior in legislative settings. Sophisticated voting
+describes strategic voting behavior over a finite, prede-
+termined sequence of alternatives. As in this model, so-
+phisticated voters may seemingly exhibit “preference re-
+versals,” in that they may vote in favor of alternatives that
+give them lower utility in order to beneficially affect the
+future path of play. However, under sophisticated voting,
+voters do not actually concede anything; individuals may
+vote against policies that they like, but only because they
+know that what they like cannot win. In this model, far-
+sighted voters may take short-term losses in order to do
+better in expectation than they could have in a one-shot
+game.13
+
+12These six sets are defined in Miller (1980), Dutta (1988), Schwartz
+(1990), Banks (1985), Chwe (1994), and von Neumann and Mor-
+genstern (1947), respectively.
+
+13This model also considers a different agenda framework than
+the amendment agendas considered under sophisticated voting.
+Not only is the proposal process in this model probabilistic, but
+agendas move “forward” in that the status quo is replaced at every
+round of voting. The standard sophisticated voting setup considers
+agendas as fixed orderings of alternatives, with policies sequentially
+eliminated through a planned series of pairwise votes. These agen-
+das are commonly voted on “backward,” with a fixed status quo
+considered last.
+
+FIGURE 3 Player 1’s Value Function
+
+45
+
+a given round is Player 1’s ideal point, (1, 0, 0). Then
+whichever policy is chosen to be pitted against the status
+quo in the next round will win with near certainty, be-
+cause every policy weakly defeats Player 1’s ideal point.
+Conversely, the point ( 1
+, 0), as an example, is more
+2
+stable and less likely to be defeated by a new policy. This is
+why Player 1’s least favorite policy is at (0, 1
+, 1
+2 ). Not only
+2
+does Player 1 get a payoff of zero from this policy, but it
+is also a relatively stable outcome, unlikely to be replaced
+quickly.
+
+, 1
+2
+
+Figure 4 depicts the density over observed policy out-
+comes. The darkest areas correspond to the most fre-
+quently observed policies. In this example only a small
+subset of the total policy space is ever observed with pos-
+itive probability. The observed policies appear to consti-
+tute a majority-rule core with respect to players’ equilib-
+rium value functions. Figure 3 demonstrates this—since
+the setting is symmetric, it is clear that each of Player 1’s
+most preferred policies is also the most preferred policy
+of another player. This example demonstrates that the as-
+sumption of farsightedness gives us sharp predictions in
+
+FIGURE 4 Density Over Outcomes
+
+FARSIGHTED VOTING
+
+Numerical Examples in
+Two-Dimensional Spaces
+
+follows is a look at several numerical esti-
+What
+in settings where the policy
+mations of this model
+space is two-dimensional. The first setting is that of a
+three-player constant sum game and the second setting
+is that of a three-player spatial model where players have
+convex preferences. The graphs that follow depict both
+the equilibrium value functions of one of the players and
+the equilibrium distribution over observed outcomes.14
+In all of the estimations it is assumed that voting is via
+majority rule and that players vote deterministically, as in
+the previous section. It is also assumed that every player
+has the same discount factor, ␦ = 0.9, and that Q is uni-
+form over the policy space. Q was chosen to be uniform
+simply as a baseline.
+
+Three Players Divide a Dollar
+
+Figure 3 is a graph of Player 1’s value function. The setting
+is a three-player divide-the-dollar game; the policy space
+equals the set of all divisions of the dollar between three
+people and a player’s utility from a particular policy equals
+the amount of money he is allocated by that policy. The
+policy space is pictured, and Player 1’s ideal point (the
+policy x = (1, 0, 0)) is at the top of the simplex. The bottom
+of the simplex denotes those policies that give Player 1 no
+portion of the dollar. The darkest areas correspond to
+the policies that yield the highest values for Player 1, and
+the lightest areas denote the policies that yield the lowest
+values.
+
+It is apparent that the policies that Player 1 values
+most are not near Player 1’s ideal point, but rather those
+that divide the dollar about equally between himself and
+one other player, or ( 1
+2 ). The intuition
+2
+for this is simple. Suppose that the status quo policy in
+
+, 0) and ( 1
+2
+
+, 1
+2
+
+, 0, 1
+
+14The estimations were run by discretizing the policy space into
+approximately 900 policies (for Example 1) or 260 policies (Exam-
+ple 2) and then iterating the mapping defined in equation (2) of
+Appendix B until it converged numerically to a dynamically sta-
+ble voting equilibrium. The iterations were performed by letting
+v 0 = {ui}i∈N and defining v t+1 = g(vt) for t ≥ 0. Convergence
+was obtained in every example for a sup norm of .002. Once the
+equilibrium value function was found, the equilibrium distribu-
+tion over outcomes was found by first drawing two policies from
+density Q, pitting them against each other (assuming that voters
+vote according to their equilibrium value functions), pitting the
+winner against a new policy drawn from Q, pitting this winner
+against a new policy drawn from Q, and so on. This process was re-
+peated 200,000 times. The frequency with which each policy arose
+as an outcome generated the ultimate distribution over observed
+outcomes.
+
+ELIZABETH MAGGIE PENN
+
+FIGURE 5 Two-Dimensional Spatial Model
+
+with Circular Preferences
+
+1
+
+2
+
+3
+
+FIGURE 6 Player 1’s Value Function with
+
+Circular Preferences
+
+each player. Then we will consider the case where two of
+the three players care more about one issue dimension
+than the other.
+
+Figure 5 depicts the spatial location of the ideal points
+of the three players and their indifference curves when
+preferences are circular. Figure 6 depicts the equilibrium
+value function of Player 1, whose ideal point is located at
+(0, 1
+2 ). Again, the darker areas correspond to the policies
+that Player 1 values most highly. Figure 7 depicts the fre-
+quency with which each policy is observed as an outcome,
+with the most frequent outcomes being darker in color
+than the less frequent ones.
+
+FIGURE 7 Density Over Outcomes with
+
+Circular Preferences
+
+46
+
+, 1
+2
+
+this divide-the-dollar game. It predicts outcomes corre-
+sponding to the set of policies that divide the dollar evenly
+between all members of a minimal winning coalition. In
+this example, the likelihood of a policy defeating a status
+quo such as ( 1
+2
+
+, 0) is approximately 1%.
+
+In social choice theory this set of predicted policies is
+referred to as the von Neumann-Morgenstern stable set and
+is defined by the property that no element in the set strictly
+defeats any other element in the set and that any policy
+outside the set is strictly defeated by an element inside the
+set.15 It is interesting to note that the predictions generated
+by this model when Q is uniform closely coincide with
+elements of the von Neumann-Morgenstern stable set in
+all of the spatial settings considered. However, as the third
+section demonstrates, this is not true in general.
+
+It is also interesting to compare this example with a
+standard one-shot bargaining model in which players are
+recognized with equal probability to propose allocations
+of the dollar and if an allocation is approved by a ma-
+jority of voters, it goes into effect. In the one-shot model
+proposals are made optimally with regard to future op-
+timal behavior by players (in the event that a proposal is
+rejected). Baron and Ferejohn (1989) demonstrate that
+the only stationary subgame-perfect equilibrium of the
+one-shot model is for the proposer to give himself ␦(n−1)
+of the dollar and to give n−1
+n each. In both
+models, only a bare majority of players receive a positive
+share of the dollar. In Baron and Ferejohn’s model, mem-
+bers of the winning coalition receive different allocations
+of the dollar depending on whether or not they were the
+proposer. Here members of the winning coalition divide
+the dollar equally among themselves, as proposals are ex-
+ogenous. Of course, ex ante outcomes in the one-shot
+model and in this model are the same in expectation.
+
+2 other players ␦
+
+2n
+
+An Asymmetric Two-Dimensional
+
+Spatial Model
+
+This last series of pictures depicts a two-dimensional spa-
+tial model, where the ideal points of the three players are
+no longer symmetric but are located at (0, 1
+2 ), (0, 0), and
+(1, 0). The policy space is bounded by the lines connecting
+the ideal points of the three players.16 First, preferences
+are assumed to be circular so that players are indifferent
+between all policies equidistant from their ideal points.
+This implies that each issue dimension matters equally to
+
+15These two conditions are termed internal and external stability,
+respectively.
+
+16When preferences are circular, this policy space corresponds to the
+Pareto set. When preferences are elliptical, as in the next example,
+the policy space subsumes the Pareto set.
+
+47
+
+FIGURE 9 Player 1’s Value Function When
+
+Players 2 and 3 Have Elliptical
+Preferences
+
+FIGURE 10 Density Over Outcomes When
+Players 2 and 3 Have Elliptical
+Preferences
+
+FARSIGHTED VOTING
+
+In Figure 6 we can see that Player 1’s highest-valued
+alternative is close to the point (0, .25). Although not pic-
+tured, the equilibrium “highest-valued” policies of Play-
+ers 2 and 3 are (.03, .03) and (.94, 0), respectively. Far-
+sightedness induces Players 1 and 3 to prefer policies that
+may spark the formation of a coalition between them-
+selves and Player 2, the most moderate player. Figure 6
+shows that the most observed outcome is approximately
+(0, .22), close to the alternative in the stable set corre-
+sponding to a coalition between Players 1 and 2, the two
+players whose ideal points are closest to each other. In
+this example the stable set consists of the points {(0, .19),
+(.28, .36), (.19, 0)}, approximately.
+
+In the last example the preferences of Players 2 and 3
+are now elliptical rather than circular, and are defined by
+the equation
+
+(cid:11)
+(ri 1 − x1)2 + 100(ri 2 − x2)2,
+
+ui (x1, x2) = −
+
+where ri = (r i1, r i2) is the ideal point of Player i. Thus,
+Players 2 and 3 value the second (or y) dimension of the
+policy space 10 times more highly than the first. The pref-
+erences of Player 1 have remained unchanged. Figure 8
+shows the ideal points of the three players and their indif-
+ference curves. The dotted curve represents the contract
+curve of Players 1 and 3 and is the upper bound of the
+Pareto set.
+
+Interestingly, even though Player 1’s utility function is
+the same as in the previous example, his equilibrium value
+function is quite different from both his utility function
+and his value function in the previous example, when the
+preferences of the other two players were circular. Figure 9
+shows that Player 1’s most preferred alternative now lies
+close to the origin, the ideal point of Player 2. The reason
+for this is similar to the intuition behind the example given
+earlier. Because Players 2 and 3 both favor policies that
+lie close to the x-axis, Player 1 knows that implementing
+a policy that appeals to him along the y-dimension is a
+lost cause. This is because the point (0, 1
+2 ), Player 1’s ideal
+
+point, is the alternative in X that is farthest from the x-
+axis. Thus, he is willing to concede a great deal of utility
+along the second dimension of the policy space in order
+to collude with Player 2 along the first dimension.
+The stable set in this example approximately equals
+{(.14, .03), (0, .01), (.09, 0)}. Figure 10 shows that there
+exists a single alternative, (.09, .02), that arises with near
+certainty. This alternative is close to the alternative in the
+stable set corresponding to a coalition between Players 2
+and 3. As in the previous example, this prediction corre-
+sponds to the most socially efficient element of the stable
+set; it is the element of the stable set that maximizes the
+sum of the players’ utilities.
+
+FIGURE 8 Two-Dimensional Spatial Model
+
+Where Players 2 and 3 Have
+Elliptical Preferences
+
+Conclusion
+
+1
+
+2
+
+Societies frequently make decisions that will persist into
+the future. Indeed, it is not a stretch to argue that most
+policies that people care about are of this form, with ex-
+amples being social policies, entitlements, budgets, and
+redistributive policies. This article argues that there is
+no reason to expect that preferences over these “contin-
+uing” policies will be similar to preferences over “once-
+and-for-all” policies. This is because, when evaluating
+
+3
+
+48
+
+continuing policies, individuals consider not only their
+payoffs from the policies themselves, but also from what
+the policies will lead to in the future. I show that when
+preferences are considered in this way, surprising out-
+comes can emerge in several standard legislative settings.
+For example, I demonstrate that a policy that is a Con-
+dorcet winner in a one-shot game is selected with proba-
+bility zero as a policy outcome when voters are farsighted.
+One implication of the model is that its predictions
+can give insight into the sorts of coalitions that may
+form in settings where policy is implemented over many
+rounds. While the existence of stable coalitions is undeni-
+ably central to political life, such coalitions can be difficult
+to understand from a theoretical perspective. This type of
+dynamic environment is perhaps one of the most natural
+in which to think of the formation of alliances, and this
+article formalizes a common argument for why stability
+can arise and persist in the real world. In the theory pre-
+sented here, individuals consider the trade-off between
+the immediate value of a policy and the long-run stabil-
+ity of the coalition implementing that policy. Ultimately,
+this consideration leads to the recognition that policies
+that fairly divide benefits between members of a winning
+coalition leave individual players best off in the long run.
+The cooperation that emerges in this model does not rely
+on any threat of punishment other than the fact that cur-
+rent policies can be replaced by new alternatives.
+
+The theory can also be interpreted as providing an
+explanation for why particular coalitions are more likely
+to form than others. Both the analytic and numerical ex-
+amples demonstrate that farsighted voters will frequently
+vote for policies that do not necessarily give them the
+highest one-shot payoff. The favorite policies of a far-
+sighted voter will depend on a combination of his own
+preferences, the preferences of other voters, the voting
+power of other voters, and the likelihood with which cer-
+tain policies will be brought to the floor. Thus, the model
+provides a nuanced characterization of voter considera-
+tions that encompasses many different elements of the
+institutional environment. It also provides a characteri-
+zation of voting behavior that is estimable, because the
+model yields distributional predictions.
+
+While the model presented in this article is purely
+formal, the theory is applicable to a variety of real-world
+legislative settings, as it utilizes only weak assumptions
+about the number of voters, their preferences, their re-
+spective voting weights, the voting rule, and the policy
+space. However, the predictive power of the model will
+depend largely on the functional form of the proposal
+process Q. This process can be thought of as represent-
+ing the likelihood with which particular policies will be
+considered by the group in the future. Estimating these
+
+ELIZABETH MAGGIE PENN
+
+likelihoods in real-world situations may provide insight
+into the prospective voting behavior of legislators, with
+the implication being that the perceived distribution of
+future policy considerations may be an omitted variable
+in some empirical models of legislative voting.
+
+Appendix A
+
+Assumptions on Individual Vote Choice
+
+Throughout, I assume that for all x, y ∈ X, p(v(x), v(y)),
+or the probability of transitioning from status quo x to
+policy y, given that x and y are put to a vote, can be written
+as the probability of victory of y over x:
+
+p(v(x), v(y)) =
+
+(cid:12)
+(cid:2)
+(cid:12)
+
+C∈W
+×
+
+i(cid:8)∈C
+
+pi (vi (x), vi (y))
+i∈C
+(1 − pi (vi (x), vi (y)))
+
+(1)
+
+where pi(vi (x), vi (y)) ∈ [0, 1] represents Player i’s prob-
+ability of voting for y over x given value function v. It
+is assumed that pi is independent of pk for all i, k ∈ N,
+that pi(vi (x), vi (y)) + pi(vi (y), vi (x)) = 1, and that pi is
+increasing in vi (y) − vi (x).
+
+While the general model defined in the second sec-
+tion does not require any additional assumptions on the
+functions pi(vi (x), vi (y)), imposing more structure on
+these functions enables us to obtain results about equilib-
+rium existence (Propositions 1, 2, and 3), and about when
+equilibrium behavior is Markov-perfect (Proposition 4).
+In particular, the two natural specifications of individ-
+ual vote choice I consider are deterministic behavior and
+probabilistic behavior. These two specifications are dis-
+cussed and defined below. Deterministic voting simply
+assumes that individuals vote for y over x if the long-run
+payoff of having y implemented today is at least as high
+as the long-run payoff of having x implemented today.
+
+Individuals vote deterministically if pi(vi (x),
+
+Definition:
+vi (y)) = 1 if vi (y) ≥ vi (x) and zero otherwise.
+Probabilistic voting assumes that, at each round of vot-
+ing, each individual i receives an unobserved payoff dis-
+turbance ␪ ix from casting a vote for policy x ∈ X. As
+is standard in models of probabilistic voting, these ␪ ix
+terms are assumed to be independently and identically
+distributed across all policies x, voters i, and, implicitly,
+rounds of voting. Furthermore, the distribution of ␪ ix
+has full support and a cumulative distribution function
+F that is twice continuously differentiable. If the pay-
+off disturbances satisfy all of these properties (and when
+
+FARSIGHTED VOTING
+
+considering probabilistic voting we will assume that they
+do) they are termed admissible.
+
+Assuming this payoff structure implies the follow-
+ing definition of probabilistic voting, which is shown in
+Proposition 4 to be consistent with an assumption that
+individuals play Markovian pure strategy Bayesian Nash
+equilibria.17
+
+Definition:
+ply, probabilistically) if, for all i ∈ N,
+
+Individuals vote F-probabilistically (or sim-
+
+pi (vi (x), vi (y)) = PrF [vi (y) + ␪i y ≥ vi (x) + ␪i x].
+
+∂
+
+|
+
+As discussed in the third section, each of the following
+three existence results requires that individuals vote prob-
+abilistically. Proposition 2 additionally requires that these
+derivatives be uniformly bounded by a specific constant.
+This assumption is formalized and discussed below. In
+the definition of this assumption, recall that ¯u is the max-
+imum value that any individual’s utility function can take,
+and u
+¯
+
+is the minimum such value.
+
+␦n|¯u−u| for all
+
+∂vk (x) pk(vk(x), vk(y))| < (1−␦)2
+
+Assumption 1.
+k ∈ N.
+First, note that the bound defined by this condition is very
+conservative. Existence may be obtained in far less restric-
+tive environments, and in the estimations and analytic ex-
+amples presented, equilibria are shown to exist even when
+individuals vote deterministically. And second, while this
+assumption may seem strange, it can be interpreted in
+the context of standard models of probabilistic voting. In
+the standard example of a logit agent quantal response
+equilibrium in which pi (vi (x), vi (y)) = e ␭vi (y)
+e ␭vi (x)+e ␭vi (y) for
+some ␭ ≥ 0, this assumption will impose a restriction on
+␭ for a fixed n and on n for a fixed ␭.18 More specifically,
+in the case of majority rule and assuming that ui(x) ∈ [0,
+1] for all i ∈ N and x ∈ X, it will hold whenever
+
+4(1 − ␦)2
+
+.
+
+␦
+
+n␭ <
+
+Since the right-hand side of this equation is always posi-
+tive, it follows that for any fixed number of players there
+will always exist a positive ␭ that guarantees equilibrium
+existence.19
+
+17See McKelvey and Palfrey (1998) and McKelvey and Patty (2006)
+for a more thorough presentation of probabilistic voting and agent
+quantal response equilibria.
+18A logit AQRE assumes that the ␪ ix follow a type one extreme
+value distribution.
+
+19The fact that this condition is more likely to hold as n becomes
+smaller runs counter to the argument in Proposition 3, which
+
+49
+
+Appendix B
+Analytic Results
+
+For the first three propositions we will define a function
+g that maps value functions into value functions, or g :
+V n → V n with g ={gi}i∈N and g i : V n → V. Specifically,
+g i (v(x)) = ui (x) + ␦
+
+(cid:13)
+
+vi (y) p(v(x), v(y))
++ vi (x)(1 − p(v(x), v(y)))Q(y)dy,
+
+y∈X
+
+(2)
+
+with the case of a finite X defined similarly. It is useful
+to note that this function g can also be used to consider
+farsighted voting when there are only a finite number of
+periods of policymaking. Let v 0 = {ui}i∈N and iteratively
+define v t+1 = g(vt), t ≥ 0. Then vi t(x) captures Player i’s
+valuation of policy x given that t rounds of policymaking
+will occur after x is implemented.
+
+Proposition 1.
+If X is finite, then there exists a dynam-
+ically stable voting equilibrium when individuals vote
+probabilistically.
+
+Because ␦ < 1 and utilities ui are bounded by
+Proof:
+[u, ¯u], it follows that the set of value functions is bounded.
+Furthermore, the set of value functions is convex, since
+the convex combination of two bounded functions taking
+X to R is itself bounded. Last, the set of value functions is
+closed, trivially. It follows that the set of value functions
+taking X into the real numbers R is a nonempty, closed,
+bounded, and convex subset of a finite-dimensional vec-
+tor space, RX.
+
+i∈N
+
+i∈N
+
+The mapping g :
+
+Fixed Point Theorem, there exists a v ∈(cid:14)
+
+RX (see equa-
+tion 2) is single-valued by definition, and is continuous
+by the continuity of every pi(vi (x), vi (y)). By Brouwer’s
+RX such
+that g(v) = v. Thus, there exists a dynamically stable
+(cid:2)
+voting equilibrium.
+
+i∈N
+
+RX →(cid:14)
+
+(cid:14)
+
+When policy space X is infinite, Assumption 1 is
+needed in order to guarantee existence, along with a def-
+inition and a lemma.
+
+proves that for a large enough n, not only will an equilibrium exist,
+but that the equilibrium will also be unique. This highlights the
+conservativeness of the condition needed in Assumption 1. When
+utilizing this assumption in Lemma 1, I find an upper bound on
+the derivative of a value function by conservatively setting every
+player’s probability of casting a pivotal vote to one, its maximum
+possible amount. This is done to simplify the formula for players’
+pivot probabilities, which is unwieldy. In Proposition 3, I use an
+asymptotic argument to show that these pivot probabilities actually
+converge to zero as the number of players becomes large. Thus, the
+size of the electorate works in opposite directions in the two proofs.
+
+50
+Definition: A set of real-valued functions V∗ ⊂ V is
+equicontinuous if for all ⑀ > 0, there exists a ␦ > 0 such
+that
+
+␳(s , t) < ␦
+
+and
+
+vi ∈ V∗ ⇒ |vi (s ) − vi (t)| < ⑀.
+
+|∇ p(v(x), v(y))| ≤
+
+ELIZABETH MAGGIE PENN
+
+(cid:17)(cid:17)(cid:2)
+
+(cid:2)
+
+|∇vi (x)|
+
+(cid:18)
+
+×
+
+i∈C
+
+∂vi (x)
+
+k∈C\{i}
+
+pi (vi (x), vi (y))
+
+pk(vk(x), vk(y))
+
+C∈W
+× ∂
+(cid:12)
+×
+(cid:12)
+(1 − pk(vk(x), vk(y)))
+(cid:17)(cid:2)
+(cid:12)
+(cid:12)
+
+pk(vk(x), vk(y))
+
+|∇vi (x)|
+
+∂vi (x)
+
+k(cid:8)∈C
+
+k∈C
+
+i(cid:8)∈C
+
+∂
+
+−
+
+×
+
+pi (vi (x), vi (y))
+
+(cid:18)(cid:18)
+
+(1 − pk(vk(x), vk(y)))
+
+×
+(cid:2)
+
+=
+
+k(cid:8)∈C∪i
+|∇vi (x)|
+
+∂
+
+pi (vi (x), vi (y))
+
+∂vi (x)
+
+i∈N
+× Zi ({ pk(vk(x), vk(y))}k∈N\{i})
+
+(4)
+i equal the set of minimal winning coali-
+
+where, letting CM
+tions that i is in,
+
+M
+
+To prove Proposition 2, we are concerned in particular
+⊂ V n of vectors of differentiable func-
+with a set Bn
+tions taking X to R whose derivatives are uniformly
+bounded by the constant M. This set is equicontinu-
+ous; let M be a bound for the derivatives of the func-
+tions in BM, and recall that for v ∈ V n, ␳(v(s ), v(t)) =
+maxi∈N |vi (s ) − vi (t)|. For an ␣ ∈ X and J equal to
+the dimensionality of the policy space, let |∇vi (␣)| =
+max j∈J | ∂vi
+|. Then, by an extension of the Mean Value
+t) < ␦ implies that ␳(v(s ), v(t)) =
+Theorem, ␳(s,
+maxi |(cid:15)vi (␣)|␳(s , t) ≤ M␦, for some ␣ on the line seg-
+ment between s and t. Thus, given ⑀ > 0, the choice ␦ =
+⑀/(M + 1) demonstrates that BM, and thus Bn
+M, is
+equicontinuous.
+
+∂␣ j
+
+Lemma 1.
+If Assumption 1 holds, then the function g
+maps a closed, bounded, and equicontinuous subset of V n
+into itself.
+
+Define g as in equation (2). Boundedness is at-
+Proof:
+tained because ␦ < 1 and X is compact. Let Bn
+M be the
+set of vectors of differentiable functions whose derivatives
+are uniformly bounded by the constant M. The set Bn
+M is
+closed. I will show that there exists an M > 0 such that for
+any v ∈ V n, if v ∈ Bn
+M. By equation (2)
+we know that for all i,
+
+M, then g (v) ∈ Bn
+
+(cid:13)
+
+g i (v(x)) = ui (x) + ␦
+
+vi (y) p(v(x), v(y))
++ vi (x)(1 − p(v(x), v(y)))Q(y)dy
+
+y∈X
+
+and thus,
+|∇g i (v(x))| ≤ |∇ui (x)| + ␦|∇vi (x)|
+
+(cid:13)
+
+(cid:15)
+(cid:13)
+1 −
+
+×
+y∈X
++ ␦
+(vi (y) − vi (x))
+|∇ p(v(x), v(y))|Q(y)dy,
+
+y∈X
+
+p(v(x), v(y))Q(y)dy
+
+(cid:16)
+
+(3)
+
+where, letting J equal the dimensionality of the policy
+space and letting f be any function of x, |∇ f (x)| =
+max j∈J | ∂ f (x)
+|. From the definition of p(v(x), v(y)) we
+get
+
+∂ x j
+
+Zi ({ pk(vk(x), vk(y))}k∈N\{i})
+=
+
+(cid:12)
+
+pk(vk(x), vk(y))
+k∈C\{i}
+(1 − pk(vk(x), vk(y))).
+
+(cid:2)
+(cid:12)
+
+C∈C M
+×
+
+i
+
+k(cid:8)∈C
+
+(5)
+Zi({pk(vk(x), vk(y))}k∈N\{i}) represents the probabil-
+ity that Player i’s vote is pivotal given that all other players
+k vote according to the functions pk(vk(x), vk(y)). Moving
+back to equation (3), it follows that
+|∇g i (v(x))| ≤ |∇ui (x)| + ␦|∇vi (x)|
+
+(cid:16)
+(cid:2)
+
+(cid:13)
+
+(cid:15)
+(cid:13)
+1 −
+
+×
++ ␦
+
+p(v(x), v(y))
+
+y∈X
+(vi (y) − vi (x))
+
+Q(y)dy
+|∇vk(x)|
+
+k∈N
+
+y∈X
+× ∂
+× Zk({ pl (vl (x), vl (y))}l∈N\{k})Q(y)dy.
+
+pk(vk(x), vk(y))
+
+∂vk(x)
+
+Let U = maxk∈N,x∈X |∇uk(x)|. U is
+assumed to
+≥ maxk∈N,x,y∈X |vk(x) −
+be bounded. Let B = |¯u−u|
+1−␦
+vk(y)|, by the assumption that ␦ < 1. Let K = maxk∈N
+|
+∂vk (x) pk(vk(x), vk(y))|. Last, assume that v(x) ∈ Bn
+M, or
+that M = maxk∈N,x∈X |∇vk(x)|. Using the fact that equa-
+tion (5) is bounded between zero and one, we now get
+that
+
+∂
+
+|∇g i (v(x))| ≤ U + ␦M + ␦nK B M.
+
+FARSIGHTED VOTING
+
+It follows that if v ∈ Bn
+
+M, then g (v) ∈ Bn
+M if
+U + ␦M + ␦nK B M ≤ M,
+
+which holds for
+
+M ≥
+
+when 1 − ␦ − ␦nKB > 0, or
+K <
+
+U
+
+1 − ␦ − ␦nK B
+
+1 − ␦
+␦nB
+
+.
+
+(6)
+
+As B = |¯u−u|
+1−␦ , equation (6) is exactly equal to Assumption
+1. It follows that if Assumption 1 holds, then g maps a
+closed, bounded, and equicontinuous subset of V n into
+(cid:2)
+itself.
+
+Proposition 2.
+If X is infinite, then there exists a dy-
+namically stable voting equilibrium when Assumption 1
+holds.
+
+M
+
+→ Bn
+
+M. Since the function g : Bn
+
+Proof:
+The Heine-Borel Theorem in a function space
+tells us that a subset V∗ ⊂ V is compact if and only if
+it is closed, bounded, and equicontinuous.20 Lemma 1
+proves that the set of value functions can be restricted to
+the compact set Bn
+M is
+continuous, we need only convexity of the set of value
+functions to prove that there exists an equilibrium value
+function.
+Take the convex combination of any two value func-
+M, so that for any ␥ ∈ [0, 1], ␥ v(x) +
+tions, v, w ∈ Bn
+(1 − ␥) w(x) = z(x). Clearly z is continuous, since
+v and w are continuous. Furthermore, z is differen-
+tiable, and the derivative of z is bounded by the constant
+M. It follows that z ∈ Bn
+M is convex. By
+Brouwer’s Fixed Point Theorem, there exists a v such that
+g(v) = v.
+(cid:2)
+
+M, and that Bn
+
+Proposition 3.
+If individuals vote probabilistically and
+n is “large enough,” then there always exists a unique
+equilibrium, regardless of whether X is finite or infinite.
+
+Proof:
+The proof is specifically for the case where X
+is infinite; the finite case can be proved similarly. First,
+note that this proof only requires us to restrict attention
+to V = Cb, or the vector space of bounded continuous
+real functions on Rm (in other words, value functions
+are not required to be differentiable in this proof ). This
+space, with the sup norm metric, is a Banach space.21 For
+
+20This theorem is a direct consequence of the Arzela-Ascoli Theo-
+rem. See Pugh (2002, 217).
+
+21See Alaprantis and Border (1999, 240).
+
+51
+w, z ∈ V n, let ␳(wi , zi ) = maxx∈X |wi (x) − zi (x)|, and
+let ␳(w, z) = maxi∈N ␳(wi , zi ). We must show that for
+any w, z ∈ V n, ␳(g (w), g (z)) < ␳(w, z), or that g is a
+contraction mapping.
+let g i : V n → V. Thus, g =
+(cid:13)
+
+As in equation (2),
+
+(g 1 , . . . , gn). Recall that
+g i (v(x)) = ui (x) + ␦
+
+y∈X
+
+vi (y) p(v(x), v(y))
++ vi (x)(1 − p(v(x), v(y)))Q(y)dy.
+(cid:19)
+(cid:20)
+
+The components of ∇gi(v(x)) can be defined using the
+partial derivatives of gi with respect to the vk:
+∂g i (v(x))
+
+(cid:13)
+
+p(v(x), v(y))Q(y)dy
+
+∂vi (x)
+
+= ␦
+
+1 −
+(cid:13)
++ ␦
+
+y∈X
+(vi (y)−vi (x))
+
+∂p(v(x),v(y))
+
+∂vi (x)
+
+(cid:13)
+
+y∈X
+and for all k ∈ N\{i},
+∂g i (v(x))
+∂vk(x)
+∂vk(x)
+Using equation (1) we get that for all i ∈ N,
+∂p(v(x), v(y))
+
+(vi (y)−vi (x))
+
+= ∂pi (vi (x), vi (y))
+
+=␦
+
+y∈X
+
+∂p(v(x), v(y))
+
+Q(y)dy
+
+(7)
+
+Q(y)dy.
+(8)
+
+∂vi (x)
+
+∂vi (x)
+
+× Zi ({ pk(vk(x), vk(y))}k∈N\{i})
+
+(9)
+where Zi(·) is defined as in equation (5). Recall that
+Zi({pk(vk(x), vk(y))}k∈N\{i}) represents the probability
+that Player i’s vote is pivotal given that all other play-
+ers k vote according to the functions pk(vk(x), vk(y)).
+McKelvey and Patty (2006), in Lemma 1, prove that when
+people vote probabilistically and utility functions are uni-
+formly bounded, all pivot probabilities Zi(·)→ 0 as n gets
+large. Uniform boundedness of utility functions implies
+that pk(vk(x), vk(y)) is uniformly bounded away from
+zero and one for all k ∈ N; in other words, as additional
+voters are added to the electorate, new voters can’t become
+arbitrarily close to voting deterministically. Combining
+equations (8) and (9), we get for all k ∈ N\{i}
+∂g i (v(x))
+∂vk(x)
+
+∂pk(vk(x), vk(y))
+× Zk({ pl (vl (x), vl (y))}l∈N\{k})Q(y)dy.
+
+(vi (y) − vi (x))
+
+∂vk(x)
+
+= ␦
+
+y∈X
+
+(cid:13)
+
+By the assumption of probabilistic voting, we know
+that for all k ∈ N, ∂ pk (vk (x),vk (y))
+is bounded by some con-
+stant. We also know that the difference | vk(y) − vk(x)|
+is bounded by a constant, as ␦ < 1 and utility is bounded.
+Since Zj(·) → 0 as n → ∞, it follows that for any ⑀ > 0
+there exists an M ∈ N such that for all n >M,
+
+∂v j (x)
+
+52
+
+ELIZABETH MAGGIE PENN
+
+∂g i (v(x))
+∂v j (x)
+
+< ⑀.
+
+(cid:13)
+
+(cid:19)
+1 −
+
+Using equation (7), by the same logic it follows that
+for any ⑀ > 0 there exists an M ∈ N such that for all
+n >M,
+
+∂g i (v(x))
+
+∂vi (x)
+
+< ␦
+
+p(v(x), v(y)Q(y)dy
+
+y∈X
+
+(cid:20)
+
++ ⑀.
+
+It now follows that for n sufficiently large, |∇g(v)| < 1,
+where
+
+(cid:15)
+
+(cid:21)(cid:21)(cid:21)(cid:21) ∂g i (v(x))
+
+∂vk(x)
+
+(cid:21)(cid:21)(cid:21)(cid:21)
+(cid:16)
+
+.
+
+|∇g (v)| = max
+{i, j}∈N
+
+max
+x∈X
+
+By the Mean Value Theorem we know that
+␳(g (w), g (z)) ≤ ␳(w, z)|∇g (v)|
+
+for some v on the line segment between w and z. Since,
+for any v ∈ V n, |∇g (v)| < 1 for n sufficiently large, it
+follows that
+
+␳(g (w), g (z)) < ␳(w, z).
+
+Thus, there exists an M ∈ N such that for all n >M, the
+function g is a contraction mapping. V n is a complete
+metric space, and thus g has a unique fixed point. More-
+over, this fixed point can be approximated by repeated
+iteration of the mapping g on any element w of V n : g ␩ =
+g ◦ g ◦ · · · ◦ g(w) → v∗
+(cid:2)
+
+as ␩→ ∞.
+
+The final proposition and corollary show that we can
+construct a game, , such that behavior in a dynami-
+cally stable voting equilibrium is consistent with Bayesian
+Markov-perfect Nash equilibrium behavior in . Define
+ as follows:
+
+• There is a collection of players, N = {0 , . . . , n},
+with Player 0 assumed to be nature and the re-
+maining players being voters.
+• There is a collection of states, S = X × X, with
+generic element s. At a given time t, s t = (x t , yt) ∈
+S can be interpreted as a status quo policy xt and a
+proposal, yt , to be pitted against the status quo.
+• A player’s type is denoted ␪ i = (␪ ix, ␪ iy), with ␪ =
+i=1. Let ␻ = (s, ␪) be a type profile. For each
+{␪ i}n
+i > 0, let i = R2 and  = ×n
+i=1
+i. Let F denote
+the twice-continuously differentiable cumulative
+distribution function of a probability distribution
+possessing full support on i and ¯F ≡ F n denote
+the cumulative distribution function of the result-
+ing product measure on .
+• A history at time t is a sequence of type profiles and
+actions, ht = {␻0, a1, ␻1 , . . . , ␻t−1, at−1, ␻t}. Let
+Ht denote the set of all possible histories at time t
+
+0
+
+0({ht−1}) = X × , where at
+
+and H denote the set of all possible histories. Note
+that the histories are from the voters’ perspective,
+so that h0 = {␻0}. Below, the true initial history,
+h = ∅, is used only for the consideration of nature’s
+determination of the initial type profile, ␻0.
+• At each time t each Player i > 0 knows history ht
+i (ht ) = {0, 1}. An action
+and has action space At
+i (ht ) = 1 is a vote by Player i for yt over xt . At t
+at
+0(∅) = X × X × . At t > 0 Player 0 has
+= 0, A0
+= (yt ,
+action space At
+␪t ). Let at (ht ) be a profile of the actions taken at
+time t.
+• Each Player i > 0 is represented by an information
+structure, Ii , which is a partition of H such that
+any element of Ii , Ii , contains histories of exactly
+one length. Denoting the subset of Ii containing
+histories of any length t by It
+i and denoting the
+type of Player i in period t following history h by
+␪h
+i , the information structure is assumed to satisfy
+the following condition. For any two histories ht
+and ˆht , ht and ˆht are in the same element of It
+i if
+and only if
+1. ht−1 = ˆht−1,
+2. s t = ˆs t, and
+3. ␪h
+i
+
+= ␪ ˆh
+i .
+
+In words, players are assumed to observe all past
+actions and type profiles, the current state, and
+their own current type, but not other players’ cur-
+rent types. (Note that the assumption that players
+observe each other’s past types is unimportant, as
+I will be examining equilibrium strategies that do
+not depend upon any players’ past types.)
+• A strategy for Player i is a mapping from informa-
+tion sets into the space of probability distributions
+over actions, denoted ␴t
+i (ht)) for i
+i
+> 0. Let ˜Q be the probability measure generated
+0(ht) = ˜Q × ¯F at all
+by pdf Q. It is assumed that ␴t
+0 (∅) = ˜Q × ˜Q × ¯F .
+t > 0, and that for t = 0, ␴0
+␴t denotes a strategy profile at time t.
+• Payoffs for each player are defined by the value
+␦t[ui (x t) + ␪t
+i at
+• For t > 0, ␻t depends on ␻t−1 and at−1 in the
+following way: xt = xt−1 if and only if for some C
+∈ W (the collection of winning coalitions), at−1
+=
+0 for all i ∈ C. If not, then xt = yt−1. Note that yt
+is chosen by nature, as in the definition of at
+0.
+
+functions vi (h) =(cid:22)∞
+
+: Ht → (At
+
+t=0
+
+i ].
+
+i
+
+We are now ready to prove the last proposition, which is
+straightforward given the setup of the game. It requires the
+definition of probabilistic voting and payoff disturbances
+presented in Appendix A.
+
+FARSIGHTED VOTING
+
+53
+
+Proposition 4.
+If individuals vote probabilistically and
+payoff disturbances are admissible, then at a dynamically
+stable voting equilibrium, v∗
+, the collection of functions
+pi are consistent with behavior in a pure strategy Bayesian
+Markov-perfect Nash equilibrium of .
+
+Corollary 1. If individuals vote deterministically, then at a
+dynamically stable voting equilibrium, v∗
+, the collection
+of functions pi are consistent with behavior in a Markov-
+perfect equilibrium of .
+
+Proof: Markov perfection requires that if two histories
+ht and ˆht have the same value of type profile ␻t , then
+␴i (ht) = ␴i ( ˆht) for all i. In considering Markov-perfect
+equilibria suppose that strategies ␴ i are measurable with
+respect to ␻i ≡ (x, y, ␪ i). In other words, players condition
+only on the current state (x, y) and their current type, ␪ i.
+Let ␾(x, y | ␴) be the probability that y defeats x, given
+that voters vote according to strategies ␴. Let ␾i(x, y | ai,
+␪ i, ␴−i) be the probability that y defeats x conditional on
+type realization ␪ i and i’s vote choice ai. Note that the
+information structure Ii and fact that the ␪ i’s are i.i.d. in
+each time period imply that ␾i(x, y | ai, ␪ i, ␴−i) = ␾i(x,
+y | ai, ␪(cid:7)
+i. In other words, ␪ i only affects
+i’s action; it does not affect his beliefs about other players’
+actions.
+
+i, ␴−i) for all ␪ i, ␪(cid:7)
+
+Clearly, ␾ is measurable with respect to ␻ (i.e., ␾ is
+history-independent). Since we are considering a mono-
+tonic game, we know that ␾i(x, y | 1, ␪ i, ␴−i) ≥ ␾i(x,
+y | 0, ␪ i, ␴−i). In other words, if Player i votes for y over x,
+then the likelihood that y defeats x is weakly greater than
+it would have been had Player i voted for x over y.
+fine ␴v∗
+
+For a dynamically stable voting equilibrium, v∗
+
+as follows:
+
+, de-
+
+i
+
+(cid:23)
+
+i (␻i ) =
+␴v∗
+
+if v∗
+
+i (x) + ␪i x > v∗
+
+i (y) + ␪i y ,
+
+0
+1 otherwise.
+
+i (x), v∗
+
+All that remains to be shown is that v∗
+i is equal to i’s true
+expected value given ␴v∗
+(cid:24)
+. To see this, write the probability
+i (y)) =
+i (v∗
+that i votes for y over x given ␴v∗
+as p␴
+R2 ␴v∗
+i (x, y, ␪i ) f (␪i )d␪i .
+= pi, as utilized in the
+It can be verified that p␴
+(through transition probability p(v∗
+definition of v∗
+i
+(x),
+v∗
+(y))). Thus, v∗
+i is Player i’s true expected payoff condi-
+tional on strategy profile ␴v∗
+represents
+a sequentially rational (i.e., Bayes Nash equilibrium) pro-
+file of strategies for the game . Since ␴v∗
+is by definition
+Markovian with respect to ␻i ≡ (x, y, ␪ i), we can con-
+clude that, for any dynamically stable voting equilibrium,
+v∗
+, the strategy profile ␴v∗
+is a Bayesian Markov-perfect
+(cid:2)
+Nash equilibrium.
+
+. It follows that ␴v∗
+
+i
+
+The following corollary follows immediately from
+the fact that when individuals vote deterministically (as
+defined in Appendix A) then ␪ ix = 0 for all i ∈ N and x
+∈ X.

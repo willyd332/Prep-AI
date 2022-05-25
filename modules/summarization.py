@@ -1,4 +1,3 @@
-from itertools import count
 import os
 import openai
 from dotenv import load_dotenv
@@ -18,7 +17,7 @@ class Summarization:
     Takes in a cleaned_text_list (see paragraph_extractor.py)
     Returns a summary
     '''
-    print("Recursive Summarization Initialized!")
+    print("Summarization Initialized!")
     self.text_list = text_list
     self.length_of_text = self.count_words(self.make_string(self.text_list))
     self.max_summary_size = max_summary_size
