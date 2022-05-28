@@ -1,57 +1,34 @@
 import os
-
 import openai
-from flask import Flask, redirect, render_template, request, url_for
-
+from flask import Flask, jsonify, request
+from flask_cors import CORS, cross_origin
+from modules.paragraph_extractor import *
+from modules.pdf_extractor import *
+from modules.summarization import *
+from modules.question_answering import *
 app = Flask(__name__)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
-
-@app.route("/", methods=("GET", "POST"))
-def prompt():
-    if request.method == "POST":
-        prompt = request.form["prompt"]
-        response = openai.Completion.create(
-            engine="text-ada-001",
-            prompt=return_prompt(prompt),
-            temperature=0.6,
-        )
-        return redirect(url_for("prompt", result=response.choices[0].text))
-
-    result = request.args.get("result")
-    return render_template("index.html", result=result)
-
-@app.route("/animal", methods=("GET", "POST"))
-def animal():
-    if request.method == "POST":
-        prompt = request.form["animal"]
-        response = openai.Completion.create(
-            engine="text-ada-001",
-            prompt=generate_animal_prompt(prompt),
-            temperature=0.6,
-        )
-        return redirect(url_for("animal", result=response.choices[0].text))
-
-    result = request.args.get("result")
-    return render_template("index.html", result=result)
-
-
-# Helper Functions
-def generate_animal_prompt(animal):
-    return """Suggest three names for an animal that is a superhero.
-
-Animal: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
-Animal: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
-Animal: {}
-Names:""".format(
-        animal.capitalize()
-    )
-
-def return_prompt(prompt):
-  return prompt
-
+@app.route("/summarize", methods=(["GET","POST"]))
+@cross_origin()
+def summarize():
+    if request.method=='POST':
+        posted_data = request.get_json()
+        print("THIS IS THE POSTED DATA")
+        print(posted_data)
+        rawText = posted_data["textData"]
+        # Create a temporary file
+        temp_file = open("temp_file.txt", "w")
+        temp_file.write(rawText)
+        temp_file.close()
+        # RUN PARAGRAPH TEST
+        cleanedText = ParagraphExtraction("./temp_file.txt")
+        # # RUN SUMMARY TEST
+        summary = Summarization(cleanedText.cleaned_text_list)
+        print("Summary Created!")
+        print(summary.summary)
+        return jsonify(summary.summary)
 
 # Run The App With Debug
 app.run(debug=True)

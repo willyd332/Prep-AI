@@ -32,3 +32,23 @@ Run server with `flask run`
 - Turn paragraph_extractor into a class
 - Turn pdf_extractor into a pdf class
 
+
+
+
+
+
+
+# TODO PLAN
+
+The most important thing is how you ingest the data.
+
+Open AI does a great job if the data is clean...
+
+Try out a few other options
+
+1. Nice interface that makes used paste clean text into boxes
+2. Check to see if academic journals can be downloaded in other formats
+3. Get more creative with your paragraph extraction
+  - Think of how Resultid uses clustering model
+  - How can you organize the data?
+  - Start with simple solutions, like user has to do it!

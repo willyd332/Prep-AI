@@ -50,7 +50,7 @@ kein_jsonl_URL = "./jsonl-data/Klein_Studying_the_History_of_Those_Who_Would_Rat
 # print("-------------------------Summary-------------------------")
 # print(penn_summary.summary)
 
-# RUN QUESTIONS TEST
-#klein_oracle = Answers(kein_jsonl_URL)
-answer = Answers.submit_query("Why is are oral techniques important for studying the history of slavery?", "file-Nb2sytJ1WLWpVfaKwhSU94fa")
-print(answer)
+# # RUN QUESTIONS TEST
+# #klein_oracle = Answers(kein_jsonl_URL)
+# answer = Answers.submit_query("Why is are oral techniques important for studying the history of slavery?", "file-Nb2sytJ1WLWpVfaKwhSU94fa")
+# print(answer)
