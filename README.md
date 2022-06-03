@@ -1,5 +1,20 @@
 # Prep-AI
 An NPL Tool with Open.AI to help students who have no time to read their assignments
+## [Link To Frontend React.js App](https://github.com/willyd332/Prep.AI-Frontend)
+
+--------------------------------------------------
+
+## Running
+Clone this repo `https://github.com/willyd332/Prep-AI.git`
+
+Then download `pip install -r requirements.txt`
+
+Set `.env` variables
+
+Run server with `flask run`
+
+--------------------------------------------------
+
 
 ## MVP #1
 - Student inputs a PDF
@@ -17,16 +32,6 @@ An NPL Tool with Open.AI to help students who have no time to read their assignm
 - Student can create an account
 - Student pays $1
 - Repeat MVP #2
-
---------------------------------------------------
-
-## Running
-Clone this repo `https://github.com/willyd332/Prep-AI.git`
-Then download `pip install -r requirements.txt`
-Set `.env` variables
-Run server with `flask run`
-
---------------------------------------------------
 
 ## TODO List
 - Turn paragraph_extractor into a class
